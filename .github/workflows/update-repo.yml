@@ -1,0 +1,36 @@
+name: Update APT repository
+
+on:
+  push:
+    paths:
+      - "debs/*.deb"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          dpkg-scanpackages -m debs /dev/null > Packages
+          gzip -9fk Packages
+          bzip2 -9fk Packages
+          cat > Release <<'EOF'
+          Origin: Sileo Repo
+          Label: Sileo Repo
+          Suite: stable
+          Codename: ios
+          Architectures: iphoneos-arm iphoneos-arm64
+          Components: main
+          Description: Personal Sileo repository
+          EOF
+          apt-ftparchive release . >> Release
+      - run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add Packages Packages.gz Packages.bz2 Release
+          git diff --cached --quiet || git commit -m "Update package index"
+          git push
