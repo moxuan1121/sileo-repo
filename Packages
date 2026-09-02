@@ -1,3 +1,53 @@
+Package: com.moxuan.appdata
+Version: 1.8.17
+Architecture: iphoneos-arm64e
+Maintainer: moxuan
+Depends: firmware (>= 15.0), firmware (<< 16.0), roothide, mobilesubstrate, preferenceloader
+Conflicts: com.iosdump.appdata, com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Replaces: com.iosdump.appdata
+Filename: debs/com.moxuan.appdata_1.8.17_iphoneos-arm64e.deb
+Size: 239624
+MD5sum: 4df3454ce424a2cbb048b71f4456e5ad
+SHA1: bf9abbcb3c3da389b96b5da11f226ae9f6fece67
+SHA256: 2a2f117d3c5a824e12eb052c49842c4a9f14cbd3c09fc2cb466ff2f54a9f8776
+Section: Tweaks
+Description: 从主屏幕查看和管理应用数据
+Author: Fouad Raheb
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Name: AppData
+
+Package: com.moxuan.cpuoverloadkiller
+Version: 1.0.12
+Architecture: iphoneos-arm64e
+Maintainer: moxuan1121
+Installed-Size: 476
+Depends: roothide, preferenceloader, mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.moxuan.cpuoverloadkiller_1.0.12_iphoneos-arm64e.deb
+Size: 70954
+MD5sum: 3ef1c72c6aeec1ae1e5e0ba4e1b170ca
+SHA1: 41753e637ecbd6b5e37de92ce29e002438a3fffd
+SHA256: 248af0c702f2b494b39fd45db173e4c76f0f68bf58e39b6bc21d8e1da4a92b26
+Section: Tweaks
+Description: Global CPU overload watchdog for applications and daemons.
+Author: moxuan1121
+Name: CPUOverloadKiller
+
+Package: com.moxuan.fontchange
+Version: 1.2.1
+Architecture: iphoneos-arm64e
+Maintainer: moxuan1121
+Installed-Size: 2036
+Depends: firmware (>= 15.0), unzip
+Filename: debs/com.moxuan.fontchange_1.2.1_iphoneos-arm64e.deb
+Size: 1651942
+MD5sum: 185c9a42a0554db9a0a9161721afe4ef
+SHA1: 6b02c078e36bf40283be4dfcc2b497550772d0d0
+SHA256: b0ec4297720cadad9b34584477d333c730ff1abd846d50387e589b8977015b3c
+Section: Utilities
+Description: Manages custom system and lock-screen fonts on supported iOS 15+ jailbreak environments, refreshes language caches, restores system fonts, and reboots userspace.
+Author: moxuan1121
+Name: FontChange
+
 Package: com.moxuan.icon110
 Version: 1.4.23~beta1
 Architecture: iphoneos-arm64e
@@ -15,6 +65,43 @@ Section: Tweaks
 Description: 110% icons with stable integrated icon shadows, smooth transitions, hidden labels and page dots, plus transparent Dock and folder backgrounds.
 Author: moxuan1121
 Name: Icon 110%
+
+Package: com.moxuan.kayoko
+Version: 4.7.9
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 2424
+Depends: firmware (>= 15.0), firmware (<< 16.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.kayoko, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: com.mlgm.kayoko, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/com.moxuan.kayoko_4.7.9_iphoneos-arm64e.deb
+Size: 512240
+MD5sum: a4a9c8496a31fcdb66dcf78a1a904f15
+SHA1: 3ab63d7af80dc65fa8675ecd8d5eb67ebe7296cc
+SHA256: bf9fbae4e7ecb363e232dc0db8a5fc516203b07d47fe1f5d0f2be70aa9bd662b
+Section: Tweaks
+Description: Kayoko 剪切板，mlgm 基于「乌龙工作室」版进行二次修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko
+
+Package: com.moxuan.keyboardx
+Version: 0.8.12-fixed
+Architecture: iphoneos-arm64e
+Maintainer: you
+Installed-Size: 92
+Depends: mobilesubstrate
+Conflicts: cn.example.kbedittoolbar (<= 0.8.7-fixed)
+Replaces: cn.example.kbedittoolbar (<= 0.8.7-fixed)
+Filename: debs/com.moxuan.keyboardx_0.8.12-fixed_iphoneos-arm64e.deb
+Size: 10138
+MD5sum: b140b36228b403c7ef46cca07b276c2f
+SHA1: a7d3a65f604d09991e6b07d8e9ce95f1683422f0
+SHA256: 142fa095768b5ce746729a5a773cd468c9947d31f571c20fcbcab8ec6a601926
+Section: Tweaks
+Description: Fixed RootHide build using the exact user-supplied KBET profile; no settings bundle or runtime preference access.
+Author: you
+Name: Keyboard Edit Toolbar (焊死配置版)
 
 Package: com.moxuan.myrtleswitcherfix
 Version: 0.5.3+m1.4.1.1
