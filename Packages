@@ -1,3 +1,22 @@
+Package: cn.moxuan.ccatop
+Version: 2.3.1
+Architecture: iphoneos-arm64e
+Maintainer: SXX, Domo
+Installed-Size: 864
+Conflicts: cn.zqbb.ccatop, ru.domo.cocoatop, ru.domo.cocoatop64, cn.zqbb.cocoatop64.inject.roothide, zp.cocoatop64.unject, zp.cocoatop64.unject.xina, zp.cocoatop64.inject
+Replaces: cn.zqbb.ccatop, ru.domo.cocoatop, ru.domo.cocoatop64, cn.zqbb.cocoatop64.inject.roothide, zp.cocoatop64.unject, zp.cocoatop64.unject.xina, zp.cocoatop64.inject
+Filename: debs/cn.moxuan.ccatop_2.3.1_iphoneos-arm64e.deb
+Size: 187680
+MD5sum: 4d179318d9c8629d50bb600f3a12b563
+SHA1: f78bbc7897324ab169512b1246aa24c30f6a280f
+SHA256: 3364b810b4178fc177a02c29d8c6c7936a50bc9f5e303a03cf9c3e882a2f578d
+Section: Utilities
+Description: Process Viewer for iOS GUI, updated for iOS 13 by SXX.
+Author: Domo, SXX
+Icon: https://apt.002599.xyz/web/icon/cn.zqbb.ccatop.png
+Name: CocoaTop
+Sileodepiction: https://apt.002599.xyz/web/cn.zqbb.ccatop
+
 Package: com.moxuan.appdata
 Version: 1.8.17
 Architecture: iphoneos-arm64e
