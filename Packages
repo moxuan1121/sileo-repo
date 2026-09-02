@@ -1,1 +1,36 @@
+Package: com.moxuan.icon110
+Version: 1.4.23~beta1
+Architecture: iphoneos-arm64e
+Maintainer: moxuan1121
+Installed-Size: 212
+Depends: firmware (>= 15.0)
+Conflicts: com.wkk.iconshadow
+Replaces: com.wkk.iconshadow
+Filename: debs/com.moxuan.icon110_1.4.23-beta1_clean-rollback_roothide.deb
+Size: 21870
+MD5sum: eaa9bd0a099c765a48091eac69a2155a
+SHA1: e12d0e44e10f653262bd9d07e9389907953a9a10
+SHA256: 2c9283300bd58988b8de82011819088798238a7a6fbc295420c7da7f6bec14c5
+Section: Tweaks
+Description: 110% icons with stable integrated icon shadows, smooth transitions, hidden labels and page dots, plus transparent Dock and folder backgrounds.
+Author: moxuan1121
+Name: Icon 110%
+
+Package: com.moxuan.myrtleswitcherfix
+Version: 0.5.3+m1.4.1.1
+Architecture: iphoneos-arm64e
+Maintainer: moxuan
+Installed-Size: 13805
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 16.0)
+Conflicts: com.m4fn3.myrtle, com.local.myrtleswitcherfix
+Replaces: com.m4fn3.myrtle, com.local.myrtleswitcherfix
+Filename: debs/com.moxuan.myrtleswitcherfix_0.5.3+m1.4.1.1_iphoneos-arm64e.deb
+Size: 4105502
+MD5sum: 2aafc7a5bc4060555318e27f18fa713d
+SHA1: e6250997befb9feb36a5771ed6194895066af173
+SHA256: 31eee69d851eabb4ad5f270460befcc47bffb68b21c1f7b32066a353e771bf2b
+Section: Tweaks
+Description: Myrtle 1.4.1 with the verified iOS 15 RootHide 0.5.3 SpringBoard fix, without MyrtleSupport.
+Author: moxuan
+Name: Myrtle Minimal Unified
 

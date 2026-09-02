@@ -5,4 +5,24 @@ Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64
 Components: main
 Description: Personal Sileo repository
-
+Date: Wed, 02 Sep 2026 16:56:01 +0000
+MD5Sum:
+ c4a9b1a49c1612606aff85ba4b7ea47b             1430 Packages
+ 846d0467390e12d3dc61cc7ac7c4ed87              858 Packages.bz2
+ c26d95f43070e82948fe9066331bc864              766 Packages.gz
+ c53a9ddb896901c349317166d795ea66              202 Release
+SHA1:
+ 47287cfa41569eb8b37003b592094337bcf9b448             1430 Packages
+ 1ffb9865a0ce9ef9227940622e70f32d059daf1b              858 Packages.bz2
+ 7d4ba7c3b040a92494bf6eb9f3f9ef17b3c100b0              766 Packages.gz
+ dd4a0799f605a1e3c6abd544d1e95f34e5bf8d31              202 Release
+SHA256:
+ 34aa807c5848e0e46dd666e46f8a0d4f43c89c269d7f06c277d0f76ac7d84d6f             1430 Packages
+ af906f3aab723b4f5b55915ed552c34a2a03adb844459e2be25d3a193dbe51c0              858 Packages.bz2
+ 572c50d3e43a64421f9c3fb60d42ad4b4fbdbd09c52fa2654aca7cd1b0e4819f              766 Packages.gz
+ 8ff6c95a6cadcc0fd14a44031bb2cd8d22e0d3c06b1052c36d9e47e707076ea5              202 Release
+SHA512:
+ 375257657c5439c29d44b51f8dd3a596624055f537df90afeeecff6fcc0e74158c42f99ecfee36c2634000598994908420e6dd0685f0a97c8f999ea5a5d104ac             1430 Packages
+ f1995067f2158adcb98a5779af5bd21c92d8432368b9cd5268489651aebacb6db9cac020e8731f6c46ac236e62e8bde68d65f98b22d29c0fa278efebacfc5ac6              858 Packages.bz2
+ 1dc8928b59b53cd8336181461e0b383e80c3e6118b9fc2250df27272ca69eae4eb0a2dbc7c5297684c4e8b3df77414e813bcaae39915182872d09e729f446d06              766 Packages.gz
+ 5798784b1d0eefb012f9ea96935df57d760ca78277309603bfade134525e3f0e042fa565b4f380f022041289ee57d9ff784d2d804188e5ce1ee08b0a6627f57c              202 Release
