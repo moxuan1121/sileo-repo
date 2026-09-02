@@ -20,9 +20,11 @@ jobs:
           gzip -9fk Packages
           bzip2 -9fk Packages
           rm -f Release
+          # ponytail: Sileo has no priority field; remove this invisible prefix if its sorting changes.
+          repo_name="$(printf '\u200a%.0s' {1..15})墨轩自用源"
           apt-ftparchive \
-            -o APT::FTPArchive::Release::Origin="墨轩自用源" \
-            -o APT::FTPArchive::Release::Label="墨轩自用源" \
+            -o APT::FTPArchive::Release::Origin="$repo_name" \
+            -o APT::FTPArchive::Release::Label="$repo_name" \
             -o APT::FTPArchive::Release::Suite="stable" \
             -o APT::FTPArchive::Release::Codename="ios" \
             -o APT::FTPArchive::Release::Architectures="iphoneos-arm iphoneos-arm64 iphoneos-arm64e" \
