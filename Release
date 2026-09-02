@@ -1,10 +1,10 @@
-Origin: Sileo Repo
-Label: Sileo Repo
+Origin: 墨轩自用源
+Label: 墨轩自用源
 Suite: stable
 Codename: ios
-Architectures: iphoneos-arm iphoneos-arm64
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
-Description: Personal Sileo repository
+Description: 墨轩自用 Sileo 软件源
 Date: Wed, 02 Sep 2026 16:56:01 +0000
 MD5Sum:
  c4a9b1a49c1612606aff85ba4b7ea47b             1430 Packages

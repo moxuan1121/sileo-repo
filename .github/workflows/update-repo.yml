@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "debs/*.deb"
+      - ".github/workflows/update-repo.yml"
   workflow_dispatch:
 
 permissions:
@@ -18,16 +19,17 @@ jobs:
           dpkg-scanpackages -m debs /dev/null > Packages
           gzip -9fk Packages
           bzip2 -9fk Packages
-          cat > Release <<'EOF'
-          Origin: Sileo Repo
-          Label: Sileo Repo
-          Suite: stable
-          Codename: ios
-          Architectures: iphoneos-arm iphoneos-arm64
-          Components: main
-          Description: Personal Sileo repository
-          EOF
-          apt-ftparchive release . >> Release
+          rm -f Release
+          apt-ftparchive \
+            -o APT::FTPArchive::Release::Origin="墨轩自用源" \
+            -o APT::FTPArchive::Release::Label="墨轩自用源" \
+            -o APT::FTPArchive::Release::Suite="stable" \
+            -o APT::FTPArchive::Release::Codename="ios" \
+            -o APT::FTPArchive::Release::Architectures="iphoneos-arm iphoneos-arm64 iphoneos-arm64e" \
+            -o APT::FTPArchive::Release::Components="main" \
+            -o APT::FTPArchive::Release::Description="墨轩自用 Sileo 软件源" \
+            release . > Release.new
+          mv Release.new Release
       - run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com

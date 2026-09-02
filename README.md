@@ -1,4 +1,4 @@
-# Sileo APT Repository
+# 墨轩自用源
 
 将 `.deb` 上传到 `debs/` 目录。GitHub Actions 会自动更新软件包索引。
 
