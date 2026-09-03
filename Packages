@@ -85,6 +85,24 @@ Description: 110% icons with stable integrated icon shadows, smooth transitions,
 Author: moxuan1121
 Name: Icon 110%
 
+Package: com.moxuan.icon110
+Version: 1.4.23~beta7
+Architecture: iphoneos-arm64e
+Maintainer: moxuan1121
+Installed-Size: 212
+Depends: firmware (>= 15.0)
+Conflicts: com.wkk.iconshadow
+Replaces: com.wkk.iconshadow
+Filename: debs/com.moxuan.icon110_1.4.23-beta7_unified-lifecycle_roothide.deb
+Size: 22442
+MD5sum: 6d376de584b63afcf1bc6d44eaf5c878
+SHA1: 716f433f5d706eb0413dcc7962c0ca013adeea9e
+SHA256: 750edb55fe709c67b7f72a6859256a3e7030190f1bd91643fed7a58cd88504a0
+Section: Tweaks
+Description: 110% icons with stable integrated icon shadows, smooth transitions, hidden labels and page dots, plus transparent Dock and folder backgrounds.
+Author: moxuan1121
+Name: Icon 110%
+
 Package: com.moxuan.kayoko
 Version: 4.7.9
 Architecture: iphoneos-arm64e
