@@ -35,17 +35,17 @@ Author: Chr1s
 Name: TapFlash
 
 Package: com.moxuan.appdata
-Version: 1.8.17
+Version: 1.8.18
 Architecture: iphoneos-arm64e
 Maintainer: moxuan
 Depends: firmware (>= 15.0), firmware (<< 16.0), roothide, mobilesubstrate, preferenceloader
 Conflicts: com.iosdump.appdata, com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
 Replaces: com.iosdump.appdata
-Filename: debs/com.moxuan.appdata_1.8.17_iphoneos-arm64e.deb
-Size: 239624
-MD5sum: 4df3454ce424a2cbb048b71f4456e5ad
-SHA1: bf9abbcb3c3da389b96b5da11f226ae9f6fece67
-SHA256: 2a2f117d3c5a824e12eb052c49842c4a9f14cbd3c09fc2cb466ff2f54a9f8776
+Filename: debs/com.moxuan.appdata_1.8.18_iphoneos-arm64e.deb
+Size: 240348
+MD5sum: 9f3195f0336337344cfe45a7228d7102
+SHA1: e024215777014795171b5d4e89365dc38f7d1fca
+SHA256: c308ee94ab9cc8ad6d80cb604a97ff1f94d5fcca2d7ce06bfdcf8923ee0edc3e
 Section: Tweaks
 Description: 从主屏幕查看和管理应用数据
 Author: Fouad Raheb
