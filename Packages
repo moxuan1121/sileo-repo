@@ -16,13 +16,14 @@ Author: Domo, SXX
 Icon: https://apt.002599.xyz/web/icon/cn.zqbb.ccatop.png
 Name: CocoaTop
 Sileodepiction: https://apt.002599.xyz/web/cn.zqbb.ccatop
+Depends: firmware (>= 15.0), firmware (<< 16.0)
 
 Package: com.chr1s.tapflash
 Version: 4.1.2-roothide
 Architecture: iphoneos-arm64e
 Maintainer: Chr1s
 Installed-Size: 88
-Depends: mobilesubstrate
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 16.0)
 Filename: debs/com.chr1s.tapflash_4.1.2-roothide_iphoneos-arm64e.deb
 Size: 2618
 MD5sum: 7556b08173305d7a1adafaaddae80b3e
@@ -56,7 +57,7 @@ Version: 1.0.12
 Architecture: iphoneos-arm64e
 Maintainer: moxuan1121
 Installed-Size: 476
-Depends: roothide, preferenceloader, mobilesubstrate (>= 0.9.5000)
+Depends: roothide, preferenceloader, mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), firmware (<< 16.0)
 Filename: debs/com.moxuan.cpuoverloadkiller_1.0.12_iphoneos-arm64e.deb
 Size: 70954
 MD5sum: 3ef1c72c6aeec1ae1e5e0ba4e1b170ca
@@ -72,7 +73,7 @@ Version: 1.2.1
 Architecture: iphoneos-arm64e
 Maintainer: moxuan1121
 Installed-Size: 2036
-Depends: firmware (>= 15.0), unzip
+Depends: firmware (>= 15.0), unzip, firmware (<< 16.0)
 Filename: debs/com.moxuan.fontchange_1.2.1_iphoneos-arm64e.deb
 Size: 1651942
 MD5sum: 185c9a42a0554db9a0a9161721afe4ef
@@ -88,7 +89,7 @@ Version: 1.4.23~beta1
 Architecture: iphoneos-arm64e
 Maintainer: moxuan1121
 Installed-Size: 212
-Depends: firmware (>= 15.0)
+Depends: firmware (>= 15.0), firmware (<< 16.0)
 Conflicts: com.wkk.iconshadow
 Replaces: com.wkk.iconshadow
 Filename: debs/com.moxuan.icon110_1.4.23-beta1_clean-rollback_roothide.deb
@@ -106,7 +107,7 @@ Version: 1.4.23~beta7
 Architecture: iphoneos-arm64e
 Maintainer: moxuan1121
 Installed-Size: 212
-Depends: firmware (>= 15.0)
+Depends: firmware (>= 15.0), firmware (<< 16.0)
 Conflicts: com.wkk.iconshadow
 Replaces: com.wkk.iconshadow
 Filename: debs/com.moxuan.icon110_1.4.23-beta7_unified-lifecycle_roothide.deb
@@ -181,7 +182,7 @@ Version: 0.8.12-fixed
 Architecture: iphoneos-arm64e
 Maintainer: you
 Installed-Size: 92
-Depends: mobilesubstrate
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 16.0)
 Conflicts: cn.example.kbedittoolbar (<= 0.8.7-fixed)
 Replaces: cn.example.kbedittoolbar (<= 0.8.7-fixed)
 Filename: debs/com.moxuan.keyboardx_0.8.12-fixed_iphoneos-arm64e.deb
