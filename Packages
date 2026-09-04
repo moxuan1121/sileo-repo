@@ -17,6 +17,22 @@ Icon: https://apt.002599.xyz/web/icon/cn.zqbb.ccatop.png
 Name: CocoaTop
 Sileodepiction: https://apt.002599.xyz/web/cn.zqbb.ccatop
 
+Package: com.chr1s.tapflash
+Version: 4.1.2-roothide
+Architecture: iphoneos-arm64e
+Maintainer: Chr1s
+Installed-Size: 88
+Depends: mobilesubstrate
+Filename: debs/com.chr1s.tapflash_4.1.2-roothide_iphoneos-arm64e.deb
+Size: 2618
+MD5sum: 7556b08173305d7a1adafaaddae80b3e
+SHA1: 03c346e34d4fc99a386b630bf69ddd5ca0589843
+SHA256: 0080380cf445374cfabe6be469c1c90fbbbd7638a3535a7a80558fd09a947cb1
+Section: Tweaks
+Description: Double-click the side button for play/pause and triple-click it to toggle the flashlight.
+Author: Chr1s
+Name: TapFlash
+
 Package: com.moxuan.appdata
 Version: 1.8.17
 Architecture: iphoneos-arm64e
