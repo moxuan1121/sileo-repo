@@ -157,6 +157,25 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/kayoko.png
 Name: Kayoko
 
+Package: com.moxuan.kayoko.keyboardx
+Version: 4.7.9-keyboardx1
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 2424
+Depends: firmware (>= 15.0), firmware (<< 16.0), mobilesubstrate, preferenceloader
+Conflicts: com.moxuan.kayoko, com.mlgm.kayoko, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: com.mlgm.kayoko, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/com.moxuan.kayoko.keyboardx_4.7.9-keyboardx1_iphoneos-arm64e.deb
+Size: 512436
+MD5sum: 3c689a6f9685d29279be411fba517972
+SHA1: eea9c6f9a2703877e32a3dcd9f1ad530b7b5274e
+SHA256: fe6831fa7a1717f7c288cba9bcd0753918873343ba63569b01f1abe92e2a15a4
+Section: Tweaks
+Description: Kayoko 键盘侠版，长按文字打开键盘侠分词；mlgm 基于「乌龙工作室」版进行二次修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko键盘侠
+
 Package: com.moxuan.keyboardx
 Version: 0.8.12-fixed
 Architecture: iphoneos-arm64e
