@@ -17,6 +17,25 @@ jobs:
       - uses: actions/checkout@v4
       - run: |
           dpkg-scanpackages -m debs /dev/null > Packages
+          cat >> Packages <<'EOF'
+
+          Package: com.moxuan.repo.notice
+          Version: 1.0
+          Architecture: iphoneos-arm64e
+          Maintainer: 墨轩
+          Installed-Size: 0
+          Filename: unavailable/personal-repository-notice.deb
+          Size: 0
+          MD5sum: d41d8cd98f00b204e9800998ecf8427e
+          SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+          SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+          Section: 源使用说明
+          Description: 本源仅供个人使用，所有软件包只针对 iOS 15 与 Dopamine RootHide 环境适配，不支持其他系统版本或越狱环境，请勿尝试安装本说明包。
+          Tag: cydia::commercial
+          Author: 墨轩
+          Icon: https://moxuan1121.github.io/sileo-repo/CydiaIcon.png
+          Name: 本源为个人自用源，仅适配 iOS 15（必看）
+          EOF
           awk -v RS='' -v ORS='\n\n' '
             {
               if ($0 !~ /(^|\n)Depends:/) {
