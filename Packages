@@ -213,6 +213,22 @@ Description: Myrtle 1.4.1 with the verified iOS 15 RootHide 0.5.3 SpringBoard fi
 Author: moxuan
 Name: Myrtle Minimal Unified
 
+Package: com.moxuan1121.rightstatusshot
+Version: 0.1.2-roothide
+Architecture: iphoneos-arm64e
+Maintainer: moxuan1121
+Installed-Size: 76
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 16.0)
+Filename: debs/com.moxuan1121.rightstatusshot_0.1.2-roothide_iphoneos-arm64e.deb
+Size: 5728
+MD5sum: 9a532daab18f080d3ba475851dfaf81a
+SHA1: 7fda865fdc50b95af00f0c1d780b1934f16826dc
+SHA256: 7b88620c3c53c02e54d6772b1db74f84bba6bb46b8dfab8369d313670f1d7db6
+Section: Tweaks
+Description: Swipe right within the right half of the status bar for a system screenshot. Experimental.
+Author: moxuan1121
+Name: RightStatusShot
+
 Package: com.moxuan.repo.notice
 Version: 1.0
 Architecture: iphoneos-arm64e
