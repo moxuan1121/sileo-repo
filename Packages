@@ -140,6 +140,25 @@ Icon: https://mlgm66.github.io/icon/kayoko.png
 Name: Kayoko
 
 Package: com.moxuan.kayoko
+Version: 4.7.38
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 2632
+Depends: firmware (>= 15.0), firmware (<< 16.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.kayoko, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: com.mlgm.kayoko, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/com.moxuan.kayoko_4.7.38_iphoneos-arm64e.deb
+Size: 552508
+MD5sum: e2824e595d08a942dcb5d1b1fa8855c3
+SHA1: 87293ec2da3320de1d80819fb432f0859aceb281
+SHA256: c4fe38ec302759c5cb118f2cd4796ec52efeab49fb594ee528689ee1ca2e6af6
+Section: Tweaks
+Description: Kayoko 剪切板，mlgm 基于「乌龙工作室」版进行二次修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko
+
+Package: com.moxuan.kayoko
 Version: 4.7.9
 Architecture: iphoneos-arm64e
 Maintainer: mlgm
