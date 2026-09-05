@@ -38,11 +38,13 @@ jobs:
           EOF
           awk -v RS='' -v ORS='\n\n' '
             {
+              fontchange = $0 ~ /(^|\n)Package: com\.moxuan\.fontchange(\n|$)/
               if ($0 !~ /(^|\n)Depends:/) {
-                $0 = $0 "\nDepends: firmware (>= 15.0), firmware (<< 16.0)"
+                $0 = $0 "\nDepends: firmware (>= 15.0)"
               } else {
                 if ($0 !~ /firmware \(>= 15\.0\)/) sub(/(^|\n)Depends:[^\n]*/, "&, firmware (>= 15.0)")
-                if ($0 !~ /firmware \(<< 16\.0\)/) sub(/(^|\n)Depends:[^\n]*/, "&, firmware (<< 16.0)")
+                if (!fontchange && $0 !~ /firmware \(<< 16\.0\)/) sub(/(^|\n)Depends:[^\n]*/, "&, firmware (<< 16.0)")
+                if (fontchange) gsub(/, firmware \(<< 16\.0\)|firmware \(<< 16\.0\), /, "")
               }
               print
             }
@@ -51,7 +53,10 @@ jobs:
           awk -v RS='' '
             {
               count = gsub(/(^|\n)Depends:/, "&")
-              if (count != 1 || $0 !~ /firmware \(>= 15\.0\)/ || $0 !~ /firmware \(<< 16\.0\)/) exit 1
+              fontchange = $0 ~ /(^|\n)Package: com\.moxuan\.fontchange(\n|$)/
+              if (count != 1 || $0 !~ /firmware \(>= 15\.0\)/) exit 1
+              if (!fontchange && $0 !~ /firmware \(<< 16\.0\)/) exit 1
+              if (fontchange && $0 ~ /firmware \(<< 16\.0\)/) exit 1
             }
           ' Packages
           gzip -9fk Packages
