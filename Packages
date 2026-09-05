@@ -73,12 +73,12 @@ Version: 1.2.1
 Architecture: iphoneos-arm64e
 Maintainer: moxuan1121
 Installed-Size: 2036
-Depends: firmware (>= 15.0), unzip, firmware (<< 16.0)
+Depends: firmware (>= 15.0), unzip
 Filename: debs/com.moxuan.fontchange_1.2.1_iphoneos-arm64e.deb
-Size: 1651942
-MD5sum: 185c9a42a0554db9a0a9161721afe4ef
-SHA1: 6b02c078e36bf40283be4dfcc2b497550772d0d0
-SHA256: b0ec4297720cadad9b34584477d333c730ff1abd846d50387e589b8977015b3c
+Size: 1651990
+MD5sum: ebcaeafeeddaa3d706e3056e423a933f
+SHA1: fcdcd7aef14e9b0a54f5806ab9d22d416921c6c7
+SHA256: 1161a8ea1f63e980bfaaa084e68359f86d30a52e13bd5c6f161faf57e6d9fa14
 Section: Utilities
 Description: Manages custom system and lock-screen fonts on supported iOS 15+ jailbreak environments, refreshes language caches, restores system fonts, and reboots userspace.
 Author: moxuan1121
