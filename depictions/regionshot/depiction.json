@@ -30,7 +30,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "0.6.34"
+          "text": "0.6.35"
         },
         {
           "class": "DepictionTableTextView",
@@ -44,7 +44,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "#### 0.6.34\n\n- 扫描二维码或条形码后，网页地址直接使用系统默认浏览器打开。\n- 支持完整的 HTTP/HTTPS 地址以及 `.com.cn`、`.jp`、`.co.jp` 等裸域名。\n- 普通文本继续保留复制、分享、分词与 AI 操作。",
+          "markdown": "#### 0.6.35\n\n- 选区菜单新增独立的“微信扫码”按钮，原有“扫码”功能保持不变。\n- 当前选区可交给微信原生扫码处理，用于付款码、小程序码等微信专用二维码。\n- 微信内部图片扫码接口不可用时，保留图片并打开微信扫一扫。",
           "useSpacing": true
         }
       ]
