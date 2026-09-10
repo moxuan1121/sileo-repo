@@ -1,0 +1,53 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.3",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "详情",
+      "views": [
+        {
+          "class": "DepictionImageView",
+          "URL": "https://moxuan1121.github.io/sileo-repo/depictions/regionshot/RegionShotPromo-v1.png",
+          "width": 941,
+          "height": 1672,
+          "horizontalPadding": 10,
+          "cornerRadius": 14,
+          "alignment": 1
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### RegionShot\n\n面向 iOS 15.6、Dopamine RootHide 与 arm64e 的智能区域截图工具。支持冻结框选、悬浮图片、AI 图片问答、分词搜索、截图历史，以及二维码网址直达。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "版本信息"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "版本",
+          "text": "0.6.34"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "系统",
+          "text": "iOS 15.6"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "越狱环境",
+          "text": "Dopamine RootHide"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "#### 0.6.34\n\n- 扫描二维码或条形码后，网页地址直接使用系统默认浏览器打开。\n- 支持完整的 HTTP/HTTPS 地址以及 `.com.cn`、`.jp`、`.co.jp` 等裸域名。\n- 普通文本继续保留复制、分享、分词与 AI 操作。",
+          "useSpacing": true
+        }
+      ]
+    }
+  ]
+}

@@ -39,12 +39,17 @@ jobs:
           awk -v RS='' -v ORS='\n\n' '
             {
               fontchange = $0 ~ /(^|\n)Package: com\.moxuan\.fontchange(\n|$)/
+              regionshot = $0 ~ /(^|\n)Package: com\.moxuan\.regionshot(\n|$)/
               if ($0 !~ /(^|\n)Depends:/) {
                 $0 = $0 "\nDepends: firmware (>= 15.0)" (fontchange ? "" : ", firmware (<< 16.0)")
               } else {
                 if ($0 !~ /firmware \(>= 15\.0\)/) sub(/(^|\n)Depends:[^\n]*/, "&, firmware (>= 15.0)")
                 if (!fontchange && $0 !~ /firmware \(<< 16\.0\)/) sub(/(^|\n)Depends:[^\n]*/, "&, firmware (<< 16.0)")
                 if (fontchange) gsub(/, firmware \(<< 16\.0\)|firmware \(<< 16\.0\), /, "")
+              }
+              if (regionshot) {
+                $0 = $0 "\nIcon: https://moxuan1121.github.io/sileo-repo/depictions/regionshot/icon.png"
+                $0 = $0 "\nSileoDepiction: https://moxuan1121.github.io/sileo-repo/depictions/regionshot/depiction.json"
               }
               print
             }
