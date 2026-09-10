@@ -30,7 +30,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "0.6.35"
+          "text": "0.6.36"
         },
         {
           "class": "DepictionTableTextView",
@@ -44,7 +44,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "#### 0.6.35\n\n- 选区菜单新增独立的“微信扫码”按钮，原有“扫码”功能保持不变。\n- 当前选区可交给微信原生扫码处理，用于付款码、小程序码等微信专用二维码。\n- 微信内部图片扫码接口不可用时，保留图片并打开微信扫一扫。",
+          "markdown": "#### 0.6.36\n\n- “微信扫码”直接通过一次性缓存把选区交给微信识别。\n- 扫码选区不再保存到系统相册，识别后自动清理缓存。\n- 原有“扫码”功能保持不变。",
           "useSpacing": true
         }
       ]
