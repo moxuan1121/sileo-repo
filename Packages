@@ -177,6 +177,25 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/kayoko.png
 Name: Kayoko
 
+Package: com.moxuan.kayoko.keyboardai
+Version: 4.7.10-regionshot2
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 2424
+Depends: firmware (>= 15.0), firmware (<< 16.0), mobilesubstrate, preferenceloader
+Conflicts: com.moxuan.kayoko.keyboardx, com.moxuan.kayoko, com.mlgm.kayoko, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: com.moxuan.kayoko.keyboardx, com.moxuan.kayoko, com.mlgm.kayoko, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/com.moxuan.kayoko.keyboardai_4.7.10-regionshot2_iphoneos-arm64e.deb
+Size: 512500
+MD5sum: e26513cf4aa23c5d984db8065bfb2fc1
+SHA1: 856e68334108a83e32d2fea73e1ab9050da3bcf7
+SHA256: 78dc6bb1c3a6c333765092bf415a7cd7b8f21c5a912952318dd5d76fcade19d6
+Section: Tweaks
+Description: Kayoko 剪贴板管理器，长按文字可打开 RegionShot 分词窗口；mlgm 基于「乌龙工作室」版进行二次修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko
+
 Package: com.moxuan.kayoko.keyboardx
 Version: 4.7.9-keyboardx1
 Architecture: iphoneos-arm64e
@@ -231,6 +250,24 @@ Section: Tweaks
 Description: Myrtle 1.4.1 with the verified iOS 15 RootHide 0.5.3 SpringBoard fix, without MyrtleSupport.
 Author: moxuan
 Name: Myrtle Minimal Unified
+
+Package: com.moxuan.regionshot
+Version: 0.6.34-roothide
+Architecture: iphoneos-arm64e
+Maintainer: moxuan
+Installed-Size: 1088
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 16.0)
+Filename: debs/com.moxuan.regionshot_0.6.34-roothide_iphoneos-arm64e.deb
+Size: 242080
+MD5sum: 48c6081104239d5cb8befa2ec520b4dc
+SHA1: 3c0aad61fba557891b4af420d3ef8b8db0be359b
+SHA256: 30b042cd19946e1d53b3435daa5572b215d2f3afac59282f55ef4fdbb474f97b
+Section: Tweaks
+Description: Lightweight floating region screenshots for iOS 15.6.
+Author: moxuan
+Name: RegionShot
+Icon: https://moxuan1121.github.io/sileo-repo/depictions/regionshot/icon.png
+SileoDepiction: https://moxuan1121.github.io/sileo-repo/depictions/regionshot/depiction.json
 
 Package: com.moxuan1121.rightstatusshot
 Version: 0.1.2-roothide
