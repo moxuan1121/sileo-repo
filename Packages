@@ -287,6 +287,24 @@ Name: RegionShot
 Icon: https://moxuan1121.github.io/sileo-repo/depictions/regionshot/icon.png
 SileoDepiction: https://moxuan1121.github.io/sileo-repo/depictions/regionshot/depiction.json
 
+Package: com.moxuan.regionshot
+Version: 0.6.36-roothide
+Architecture: iphoneos-arm64e
+Maintainer: moxuan
+Installed-Size: 1088
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 16.0)
+Filename: debs/com.moxuan.regionshot_0.6.36-roothide_iphoneos-arm64e.deb
+Size: 242774
+MD5sum: bfd5661c8cff17ddf56fa0741f2d4e04
+SHA1: 723f25fd615637a690e31f94078d770e4ae5f2d9
+SHA256: eca8a580f71ace2b11cf2eab9e61ef56ae5442c6b7bf453f6a0f24742e126bfa
+Section: Tweaks
+Description: Lightweight floating region screenshots for iOS 15.6.
+Author: moxuan
+Name: RegionShot
+Icon: https://moxuan1121.github.io/sileo-repo/depictions/regionshot/icon.png
+SileoDepiction: https://moxuan1121.github.io/sileo-repo/depictions/regionshot/depiction.json
+
 Package: com.moxuan1121.rightstatusshot
 Version: 0.1.2-roothide
 Architecture: iphoneos-arm64e
