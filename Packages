@@ -256,7 +256,7 @@ Version: 0.6.34-roothide
 Architecture: iphoneos-arm64e
 Maintainer: moxuan
 Installed-Size: 1088
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 16.0)
+Depends: mobilesubstrate, preferenceloader
 Filename: debs/com.moxuan.regionshot_0.6.34-roothide_iphoneos-arm64e.deb
 Size: 242080
 MD5sum: 48c6081104239d5cb8befa2ec520b4dc
@@ -274,7 +274,7 @@ Version: 0.6.35-roothide
 Architecture: iphoneos-arm64e
 Maintainer: moxuan
 Installed-Size: 1088
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 16.0)
+Depends: mobilesubstrate, preferenceloader
 Filename: debs/com.moxuan.regionshot_0.6.35-roothide_iphoneos-arm64e.deb
 Size: 242938
 MD5sum: 7bc7504955e24648d2793e4dab29d19d
@@ -292,7 +292,7 @@ Version: 0.6.36-roothide
 Architecture: iphoneos-arm64e
 Maintainer: moxuan
 Installed-Size: 1088
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 16.0)
+Depends: mobilesubstrate, preferenceloader
 Filename: debs/com.moxuan.regionshot_0.6.36-roothide_iphoneos-arm64e.deb
 Size: 242774
 MD5sum: bfd5661c8cff17ddf56fa0741f2d4e04
@@ -310,7 +310,7 @@ Version: 0.6.56-roothide
 Architecture: iphoneos-arm64e
 Maintainer: moxuan
 Installed-Size: 1088
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 16.0)
+Depends: mobilesubstrate, preferenceloader
 Filename: debs/com.moxuan.regionshot_0.6.56-roothide_iphoneos-arm64e.deb
 Size: 244106
 MD5sum: a175817cf0548ed832c6d269cf36e60c
@@ -328,7 +328,7 @@ Version: 0.6.57-roothide
 Architecture: iphoneos-arm64e
 Maintainer: moxuan
 Installed-Size: 1088
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 16.0)
+Depends: mobilesubstrate, preferenceloader
 Filename: debs/com.moxuan.regionshot_0.6.57-roothide_iphoneos-arm64e.deb
 Size: 244056
 MD5sum: 4d7d11aa28d2a21023ec7520a208c5eb
@@ -346,7 +346,7 @@ Version: 0.6.58-roothide
 Architecture: iphoneos-arm64e
 Maintainer: moxuan
 Installed-Size: 1104
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 16.0)
+Depends: mobilesubstrate, preferenceloader
 Filename: debs/com.moxuan.regionshot_0.6.58-roothide_iphoneos-arm64e.deb
 Size: 245604
 MD5sum: 62ddec287903a6474f624b2cb42092d2
@@ -364,7 +364,7 @@ Version: 0.6.59-roothide
 Architecture: iphoneos-arm64e
 Maintainer: moxuan
 Installed-Size: 1192
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 16.0)
+Depends: mobilesubstrate, preferenceloader
 Filename: debs/com.moxuan.regionshot_0.6.59-roothide_iphoneos-arm64e.deb
 Size: 251730
 MD5sum: 9fb4228852b591e392918ac412880f1f
@@ -382,7 +382,7 @@ Version: 0.6.60-roothide
 Architecture: iphoneos-arm64e
 Maintainer: moxuan
 Installed-Size: 1192
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 16.0)
+Depends: mobilesubstrate, preferenceloader
 Filename: debs/com.moxuan.regionshot_0.6.60-roothide_iphoneos-arm64e.deb
 Size: 252822
 MD5sum: b6a6c14793c95c87e4dd11f50f51eb26
@@ -400,7 +400,7 @@ Version: 0.6.61-roothide
 Architecture: iphoneos-arm64e
 Maintainer: moxuan
 Installed-Size: 1192
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 16.0)
+Depends: mobilesubstrate, preferenceloader
 Filename: debs/com.moxuan.regionshot_0.6.61-roothide_iphoneos-arm64e.deb
 Size: 251962
 MD5sum: 671111a3c2a842ebac02e2ceaa1e9c27
