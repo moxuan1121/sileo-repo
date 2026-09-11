@@ -30,7 +30,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "0.6.57"
+          "text": "0.6.58"
         },
         {
           "class": "DepictionTableTextView",
@@ -44,7 +44,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "#### 0.6.57\n\n- 移除 SpringBoard 主插件未使用的 WebKit 动态链接。\n- 微信、LINE 与 Sileo 输入模块继续保留 WebKit 支持，现有功能和注入范围不变。",
+          "markdown": "#### 0.6.58\n\n- 分词窗口、AI 对话窗口、AI 弹出式窗口和截图历史使用 iOS 系统磨砂玻璃背景。\n- 保留原有布局、圆角、阴影、动画和深浅色适配。",
           "useSpacing": true
         }
       ]
