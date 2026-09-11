@@ -30,7 +30,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "0.6.56"
+          "text": "0.6.57"
         },
         {
           "class": "DepictionTableTextView",
@@ -44,7 +44,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "#### 0.6.56\n\n- 分词界面与 AI 弹出式窗口识别内容中的网址，可直接访问。\n- 隐藏菜单按钮名称后，图标保持居中。\n- 降低状态栏触摸、选区绘制和历史列表的重复工作。\n- 弹出式窗口关闭后及时释放界面对象。",
+          "markdown": "#### 0.6.57\n\n- 移除 SpringBoard 主插件未使用的 WebKit 动态链接。\n- 微信、LINE 与 Sileo 输入模块继续保留 WebKit 支持，现有功能和注入范围不变。",
           "useSpacing": true
         }
       ]
