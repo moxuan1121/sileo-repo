@@ -30,7 +30,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "0.6.36"
+          "text": "0.6.56"
         },
         {
           "class": "DepictionTableTextView",
@@ -44,7 +44,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "#### 0.6.36\n\n- “微信扫码”直接通过一次性缓存把选区交给微信识别。\n- 扫码选区不再保存到系统相册，识别后自动清理缓存。\n- 原有“扫码”功能保持不变。",
+          "markdown": "#### 0.6.56\n\n- 分词界面与 AI 弹出式窗口识别内容中的网址，可直接访问。\n- 隐藏菜单按钮名称后，图标保持居中。\n- 降低状态栏触摸、选区绘制和历史列表的重复工作。\n- 弹出式窗口关闭后及时释放界面对象。",
           "useSpacing": true
         }
       ]
