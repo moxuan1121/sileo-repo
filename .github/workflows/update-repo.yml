@@ -34,7 +34,7 @@ jobs:
           Tag: cydia::commercial
           Author: 墨轩
           Icon: https://moxuan1121.github.io/sileo-repo/CydiaIcon.png
-          Name: 本源为个人自用源，仅适配 iOS 15（必看）
+          Name: !!!【必看】本源为个人自用源，仅适配 iOS 15
           EOF
           awk -v RS='' -v ORS='\n\n' '
             {
