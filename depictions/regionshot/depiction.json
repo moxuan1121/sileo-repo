@@ -30,7 +30,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "0.6.58"
+          "text": "0.6.59"
         },
         {
           "class": "DepictionTableTextView",
@@ -44,7 +44,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "#### 0.6.58\n\n- 分词窗口、AI 对话窗口、AI 弹出式窗口和截图历史使用 iOS 系统磨砂玻璃背景。\n- 保留原有布局、圆角、阴影、动画和深浅色适配。",
+          "markdown": "#### 0.6.59\n\n- AI 对话新增内嵌相机，拍摄后直接作为图片附件返回。\n- 支持双指缩放镜头及前后镜头切换。\n- 相机面板改用 iOS 系统磨砂玻璃背景。\n- 附件菜单按照片、文件、相机排列。",
           "useSpacing": true
         }
       ]
