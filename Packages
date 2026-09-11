@@ -444,6 +444,6 @@ Description: 本源仅供个人使用，所有软件包只针对 iOS 15 与 Dopa
 Tag: cydia::commercial
 Author: 墨轩
 Icon: https://moxuan1121.github.io/sileo-repo/CydiaIcon.png
-Name: 本源为个人自用源，仅适配 iOS 15（必看）
+Name: !!!【必看】本源为个人自用源，仅适配 iOS 15
 Depends: firmware (>= 15.0), firmware (<< 16.0)
 
