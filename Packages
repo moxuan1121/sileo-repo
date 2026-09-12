@@ -185,25 +185,6 @@ Installed-Size: 2424
 Depends: firmware (>= 15.0), firmware (<< 16.0), mobilesubstrate, preferenceloader
 Conflicts: com.moxuan.kayoko.keyboardx, com.moxuan.kayoko, com.mlgm.kayoko, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
 Replaces: com.moxuan.kayoko.keyboardx, com.moxuan.kayoko, com.mlgm.kayoko, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
-Filename: debs/com.moxuan.kayoko.keyboardai_4.7.10-regionshot2_iphoneos-arm64e.deb
-Size: 512500
-MD5sum: e26513cf4aa23c5d984db8065bfb2fc1
-SHA1: 856e68334108a83e32d2fea73e1ab9050da3bcf7
-SHA256: 78dc6bb1c3a6c333765092bf415a7cd7b8f21c5a912952318dd5d76fcade19d6
-Section: Tweaks
-Description: Kayoko 剪贴板管理器，长按文字可打开 RegionShot 分词窗口；mlgm 基于「乌龙工作室」版进行二次修改
-Author: mlgm
-Icon: https://mlgm66.github.io/icon/kayoko.png
-Name: Kayoko
-
-Package: com.moxuan.kayoko.keyboardai
-Version: 4.7.10-regionshot2
-Architecture: iphoneos-arm64e
-Maintainer: mlgm
-Installed-Size: 2424
-Depends: firmware (>= 15.0), firmware (<< 16.0), mobilesubstrate, preferenceloader
-Conflicts: com.moxuan.kayoko.keyboardx, com.moxuan.kayoko, com.mlgm.kayoko, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
-Replaces: com.moxuan.kayoko.keyboardx, com.moxuan.kayoko, com.mlgm.kayoko, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
 Filename: debs/com.moxuan.kayoko.keyboardai_4.7.10-regionshot2_iphoneos-arm64e-roothide.deb
 Size: 512972
 MD5sum: e3863752af8f8af82850231b7b6ef37f
