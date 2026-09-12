@@ -50,6 +50,22 @@ Description: Long-press the side button for RegionShot AI, double-click for play
 Author: Chr1s
 Name: TapFlash
 
+Package: com.chr1s.tapflash
+Version: 4.1.4-roothide
+Architecture: iphoneos-arm64e
+Maintainer: Chr1s
+Installed-Size: 88
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 16.0)
+Filename: debs/com.chr1s.tapflash_4.1.4-roothide_iphoneos-arm64e.deb
+Size: 2710
+MD5sum: 50e719f14e79c0c9ed24f12f803c9c57
+SHA1: d7a2b50a44281b34c830c41fc96a09e28655bca5
+SHA256: 7e04587deae328744164425a11470a9d470a4d569e6609b2c6e1bde8f5c9f685
+Section: Tweaks
+Description: Long-press the side button for RegionShot AI camera, double-click for play/pause, and triple-click to toggle the flashlight.
+Author: Chr1s
+Name: TapFlash
+
 Package: com.moxuan.appdata
 Version: 1.8.19
 Architecture: iphoneos-arm64e
@@ -512,6 +528,24 @@ Size: 268684
 MD5sum: f2a81ddac957de5a063cea6a8c43d5b8
 SHA1: f3b41815fbafbe2131920ec766c9a949f852a73b
 SHA256: 132a1d1ad8274debc62b1b8df30cbcfd6680297a5606f12bd580f642082fb177
+Section: Tweaks
+Description: Lightweight floating region screenshots for iOS 15.6.
+Author: moxuan
+Name: RegionShot
+Icon: https://moxuan1121.github.io/sileo-repo/depictions/regionshot/icon.png
+SileoDepiction: https://moxuan1121.github.io/sileo-repo/depictions/regionshot/depiction.json
+
+Package: com.moxuan.regionshot
+Version: 0.6.83-roothide
+Architecture: iphoneos-arm64e
+Maintainer: moxuan
+Installed-Size: 1260
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.moxuan.regionshot_0.6.83-roothide_iphoneos-arm64e.deb
+Size: 269306
+MD5sum: 48ecef43163aa0d90dfb42f3bc855d9a
+SHA1: 419ac39402ce8431548a80f1d2686950a0b4ae18
+SHA256: ae6178ead18a5ea876e4a03e4632fd232a5587c773209a3c8bb578019cc0a4c0
 Section: Tweaks
 Description: Lightweight floating region screenshots for iOS 15.6.
 Author: moxuan
