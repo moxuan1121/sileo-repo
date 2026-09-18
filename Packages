@@ -180,6 +180,25 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/kayoko.png
 Name: Kayoko
 
+Package: com.moxuan.kayoko.keyboardai
+Version: 4.7.12
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 2424
+Depends: firmware (>= 15.0), firmware (<< 16.0), mobilesubstrate, preferenceloader
+Conflicts: com.moxuan.kayoko.keyboardx, com.moxuan.kayoko, com.mlgm.kayoko, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: com.moxuan.kayoko.keyboardx, com.moxuan.kayoko, com.mlgm.kayoko, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/com.moxuan.kayoko.keyboardai_4.7.12_iphoneos-arm64e.deb
+Size: 512372
+MD5sum: 08179e2d10022a1245e062961bcc619b
+SHA1: 9562f160eabb12338e22cbd8d4a54639c706d14e
+SHA256: da2d2695c9ae3ff541a538b8abc33195e85012d33629ff2279cefeff3eb88124
+Section: Tweaks
+Description: Kayoko 剪贴板管理器，长按文字可打开 RegionShot 分词窗口，长按图片可显示 RegionShot 悬浮图片；mlgm 基于「乌龙工作室」版进行二次修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko
+
 Package: com.moxuan.kayoko.keyboardx
 Version: 4.7.9-keyboardx1
 Architecture: iphoneos-arm64e
@@ -660,6 +679,24 @@ Size: 270150
 MD5sum: 0fbc3962ce338b23d43fadc7d0e71406
 SHA1: 532d90eb8db943ae61187787cb0655c110fa2bba
 SHA256: d9fb3d63479bbe95651835e79d31d18c3f912e733f1880c24f4ed49326931cdd
+Section: Tweaks
+Description: Lightweight floating region screenshots for iOS 15.6.
+Author: moxuan
+Name: RegionShot
+Icon: https://moxuan1121.github.io/sileo-repo/depictions/regionshot/icon.png
+SileoDepiction: https://moxuan1121.github.io/sileo-repo/depictions/regionshot/depiction.json
+
+Package: com.moxuan.regionshot
+Version: 0.7.21-roothide
+Architecture: iphoneos-arm64e
+Maintainer: moxuan
+Installed-Size: 1276
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.moxuan.regionshot_0.7.21-roothide_iphoneos-arm64e.deb
+Size: 276144
+MD5sum: cb613c26865e19b9e1cc9d8d1dab79e2
+SHA1: 4d439c5e5d9ab56689195b70dde2fefd52825726
+SHA256: 4c41bcdb02e91cc1c65f307cbc1fe6dd2dfe0a544f2465c2221ff71935f780d5
 Section: Tweaks
 Description: Lightweight floating region screenshots for iOS 15.6.
 Author: moxuan
