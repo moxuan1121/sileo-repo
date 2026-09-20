@@ -1,24 +1,24 @@
 Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Codename: ios
 Components: main
-Date: Fri, 18 Sep 2026 10:15:11 +0000
+Date: Sun, 20 Sep 2026 13:37:01 +0000
 Description: 墨轩自用 Sileo 软件源
 Label:                墨轩自用源
 Origin:                墨轩自用源
 Suite: stable
 MD5Sum:
- 1735ed539b18c52e809ffc3ce92fcefa            31274 Packages
- 547de696b34cd26c46f7dc091fccfdd6             6682 Packages.bz2
- 8ee6b1e9e1a285b812aca76465bcd5a4             6880 Packages.gz
+ a8e3c492f7f4cd114dbe031a58d50f38            31976 Packages
+ 20c67338542ba6662373673f4e76d70f             6867 Packages.bz2
+ fd1e3c03260bf4af464c3728b8476b6f             7109 Packages.gz
 SHA1:
- f32c1d552db2006e88318b4a39e6646e6958eae0            31274 Packages
- b05df7f8c92e328a2b8d2cdaac9ec5c69656f441             6682 Packages.bz2
- f080d94ba867666e774cad46cc7ca0bb78e7c7e9             6880 Packages.gz
+ b23c732c35122e8a521d3cc854767e4f6b23728a            31976 Packages
+ d71f9902ef58ae72e4b10b0bdaa8506b89e68c8c             6867 Packages.bz2
+ 8ede0b4baf30a191403af52939038bb27135263d             7109 Packages.gz
 SHA256:
- a1f98ae32f2d42fe81d856c3f502acb88be66a65722e7def07d3a64592593531            31274 Packages
- 8c061cc8b3bbbd8962a7f56546eaa1093c6094c303b4c26cea63fa7bb4eb7cba             6682 Packages.bz2
- fad29506ca20bf0faaa5fa8905891b8eb3318ec8c12b144608bdb68b55ceedf8             6880 Packages.gz
+ b494a01109ddbf17fafec90fcdc47f03ca88d1a520dd3005e6beb9d9420d62b1            31976 Packages
+ 3dac1b829fbeaf22f5d3c3c69b28d265a518a45d8863ef44ef8f87e3a6e4bb0a             6867 Packages.bz2
+ 2807ab61872d203e3e80c4bd0be41c8e914272edc8c10e7db6b855d3b9ba4b03             7109 Packages.gz
 SHA512:
- 5f64226211a81c5756692a8d28dc03ebe31cc3ca582009f52dab2dbe7edfad4ea2c3f8da4dc78239f3a8b017202f64087a241e072d5f0982243cdb2db1b2b8cc            31274 Packages
- c6a2603a6e9f4f2cda3fd6f589a67c23e87fc2798267294b8b5185508c8274ce73e575e6db5ef3c5d11d158429feddd1bf4b4e68e4325fa092587dc48d05e938             6682 Packages.bz2
- 12ac3afd1afcd9365b52b79a2d9a1522f922dc354f28653b30a083c6ab80536b94ab47eacb75b1bf4a06a46401d7dca0dbeb471f95ea6880884730712b646bd2             6880 Packages.gz
+ e612f6e795935d4ee0b127a1e33b68562a1bc9e9ff184d2162cc8bcd9d7b6cdbb4dc469538581fb787fe0ebf560b27f1a01c39ad28e3f3ed8d99477ac143eaed            31976 Packages
+ e2ffcbe782d8d79674993342cbcda9982a85c46c6e4bd44f3069ecfc220f23283e3c89e238f77920dc368512311ef33d63c243352e4fb6e1c289e0f9d2aa3446             6867 Packages.bz2
+ 362f84c498f7334ff43681f64d0cd880f9292b6e19006ba23d48fc4045663f43bd2c68123b6f82a5a85f4ad5ee8372f662c6e9c24a120b08dce549c5cc01bbbb             7109 Packages.gz

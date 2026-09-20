@@ -722,6 +722,24 @@ Name: RegionShot
 Icon: https://moxuan1121.github.io/sileo-repo/depictions/regionshot/icon.png
 SileoDepiction: https://moxuan1121.github.io/sileo-repo/depictions/regionshot/depiction.json
 
+Package: com.moxuan1121.powerbutton
+Version: 1.1.10
+Architecture: iphoneos-arm64e
+Maintainer: moxuan1121
+Installed-Size: 172
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 16.0)
+Conflicts: com.moxuan1121.powerbuttonhooks, com.lclrc.squidgesture
+Replaces: com.moxuan1121.powerbuttonhooks
+Filename: debs/com.moxuan1121.powerbutton_1.1.10_iphoneos-arm64e.deb
+Size: 18486
+MD5sum: 14ab5585c3b67a387f6aac9c5d9e393d
+SHA1: 5cb37668ef294bbabd827527ebdaf1b9ddc762fb
+SHA256: 2368781ad68edbaac65fcdba95f639cf6689252b1c4f6cde16ac3ba3b181b594
+Section: Tweaks
+Description: RootHide-only side-button actions and optional low power mode while locked.
+Author: moxuan1121
+Name: PowerButton
+
 Package: com.moxuan1121.rightstatusshot
 Version: 0.1.2-roothide
 Architecture: iphoneos-arm64e
