@@ -18,6 +18,24 @@ Name: CocoaTop
 Sileodepiction: https://apt.002599.xyz/web/cn.zqbb.ccatop
 Depends: firmware (>= 15.0), firmware (<< 16.0)
 
+Package: com.mox1121.shortcutpanel
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: mox1121
+Installed-Size: 600
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 16.0)
+Conflicts: com.xcxiao.bottomcontrolx, com.ichitaso.bottomcontrolx
+Replaces: com.xcxiao.bottomcontrolx, com.ichitaso.bottomcontrolx
+Filename: debs/com.mox1121.shortcutpanel_1.0_iphoneos-arm64e.deb
+Size: 85856
+MD5sum: 85337d48e74d56e36f9a32043b0b7131
+SHA1: 3d6b6d3aa667f441f11f129c5d466ef118982165
+SHA256: 508d02b635670565cfdcb0fce9e3518e89812b60652d94496431fdddf75e00cf
+Section: Tweaks
+Description: iOS 15 roothide 侧边手柄快捷面板 ShortcutPanel
+Author: mox1121
+Name: ShortcutPanel
+
 Package: com.moxuan.appdata
 Version: 1.8.19
 Architecture: iphoneos-arm64e
