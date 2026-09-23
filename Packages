@@ -272,6 +272,24 @@ Description: Myrtle 1.4.1 with the verified iOS 15 RootHide 0.5.3 SpringBoard fi
 Author: moxuan
 Name: Myrtle Minimal Unified
 
+Package: com.moxuan.myrtleswitcherfix
+Version: 0.5.3.10+m1.4.1.1
+Architecture: iphoneos-arm64e
+Maintainer: moxuan
+Installed-Size: 13805
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 16.0)
+Conflicts: com.m4fn3.myrtle, com.local.myrtleswitcherfix
+Replaces: com.m4fn3.myrtle, com.local.myrtleswitcherfix
+Filename: debs/com.moxuan.myrtleswitcherfix_0.5.3.10+m1.4.1.1_iphoneos-arm64e.deb
+Size: 4107010
+MD5sum: 0c7ec76a5c545cc15a2b9f1d4cb53cd4
+SHA1: ae0ff0c8fdb2fa63012c84bc961aefd54144d3e2
+SHA256: 4b2ef727a268f9cb6378eb34093afcf6e9a3dc27b32e2cb0b026464fff6482c6
+Section: Tweaks
+Description: Myrtle 1.4.1.1 and iOS 15 RootHide stable fixes, including direct upper-right snap; no diagnostic logging or MyrtleSupport.
+Author: moxuan
+Name: Myrtle Minimal Unified
+
 Package: com.moxuan.regionshot
 Version: 0.6.34-roothide
 Architecture: iphoneos-arm64e
