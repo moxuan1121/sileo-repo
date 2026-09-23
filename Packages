@@ -758,6 +758,24 @@ Name: RegionShot
 Icon: https://moxuan1121.github.io/sileo-repo/depictions/regionshot/icon.png
 SileoDepiction: https://moxuan1121.github.io/sileo-repo/depictions/regionshot/depiction.json
 
+Package: com.moxuan.regionshot
+Version: 0.7.33-roothide
+Architecture: iphoneos-arm64e
+Maintainer: moxuan
+Installed-Size: 1292
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.moxuan.regionshot_0.7.33-roothide_iphoneos-arm64e.deb
+Size: 276988
+MD5sum: 9997099e82010b2d7a8664b2d4438e21
+SHA1: 219e476d68f63d0acc146ff9503b3e11ab40e47e
+SHA256: 3fde8d0c8b747fa409c7cc91f9dade0fcfb9f6cd08202de07b0fe43e5566c4ce
+Section: Tweaks
+Description: Lightweight floating region screenshots for iOS 15.6.
+Author: moxuan
+Name: RegionShot
+Icon: https://moxuan1121.github.io/sileo-repo/depictions/regionshot/icon.png
+SileoDepiction: https://moxuan1121.github.io/sileo-repo/depictions/regionshot/depiction.json
+
 Package: com.moxuan1121.powerbutton
 Version: 1.1.10
 Architecture: iphoneos-arm64e
