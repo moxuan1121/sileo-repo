@@ -54,6 +54,24 @@ Description: iOS 15 roothide 侧边手柄快捷面板 ShortcutPanel
 Author: mox1121
 Name: ShortcutPanel
 
+Package: com.mox1121.shortcutpanel
+Version: 1.0.2
+Architecture: iphoneos-arm64e
+Maintainer: mox1121
+Installed-Size: 600
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 16.0)
+Conflicts: com.xcxiao.bottomcontrolx, com.ichitaso.bottomcontrolx
+Replaces: com.xcxiao.bottomcontrolx, com.ichitaso.bottomcontrolx
+Filename: debs/com.mox1121.shortcutpanel_1.0.2_iphoneos-arm64e.deb
+Size: 86310
+MD5sum: c7f29bc77f32c69760cbab5b74bc919c
+SHA1: 5ab3932bf464890d1469cdcff1f61d50c8f6e7b7
+SHA256: b5ee2ad9b27e8cff157efe4051e11b5f9b39c97bcfa9a18d86d0e1d90b1803a3
+Section: Tweaks
+Description: iOS 15 roothide 侧边手柄快捷面板 ShortcutPanel
+Author: mox1121
+Name: ShortcutPanel
+
 Package: com.moxuan.appdata
 Version: 1.8.19
 Architecture: iphoneos-arm64e
