@@ -40,11 +40,12 @@ jobs:
             {
               fontchange = $0 ~ /(^|\n)Package: com\.moxuan\.fontchange(\n|$)/
               regionshot = $0 ~ /(^|\n)Package: com\.moxuan\.regionshot(\n|$)/
+              processguardian = $0 ~ /(^|\n)Package: com\.moxuan\.processguardian(\n|$)/
               if ($0 !~ /(^|\n)Depends:/) {
-                if (!regionshot) $0 = $0 "\nDepends: firmware (>= 15.0)" (fontchange ? "" : ", firmware (<< 16.0)")
+                if (!regionshot && !processguardian) $0 = $0 "\nDepends: firmware (>= 15.0)" (fontchange ? "" : ", firmware (<< 16.0)")
               } else {
-                if (!regionshot && $0 !~ /firmware \(>= 15\.0\)/) sub(/(^|\n)Depends:[^\n]*/, "&, firmware (>= 15.0)")
-                if (!fontchange && !regionshot && $0 !~ /firmware \(<< 16\.0\)/) sub(/(^|\n)Depends:[^\n]*/, "&, firmware (<< 16.0)")
+                if (!regionshot && !processguardian && $0 !~ /firmware \(>= 15\.0\)/) sub(/(^|\n)Depends:[^\n]*/, "&, firmware (>= 15.0)")
+                if (!fontchange && !regionshot && !processguardian && $0 !~ /firmware \(<< 16\.0\)/) sub(/(^|\n)Depends:[^\n]*/, "&, firmware (<< 16.0)")
                 if (fontchange) gsub(/, firmware \(<< 16\.0\)|firmware \(<< 16\.0\), /, "")
                 if (regionshot) {
                   gsub(/, firmware \(>= 15\.0\)|firmware \(>= 15\.0\), /, "")
@@ -64,10 +65,12 @@ jobs:
               count = gsub(/(^|\n)Depends:/, "&")
               fontchange = $0 ~ /(^|\n)Package: com\.moxuan\.fontchange(\n|$)/
               regionshot = $0 ~ /(^|\n)Package: com\.moxuan\.regionshot(\n|$)/
+              processguardian = $0 ~ /(^|\n)Package: com\.moxuan\.processguardian(\n|$)/
               if (count != 1 || (!regionshot && $0 !~ /firmware \(>= 15\.0\)/)) exit 1
-              if (!fontchange && !regionshot && $0 !~ /firmware \(<< 16\.0\)/) exit 1
+              if (!fontchange && !regionshot && !processguardian && $0 !~ /firmware \(<< 16\.0\)/) exit 1
               if (fontchange && $0 ~ /firmware \(<< 16\.0\)/) exit 1
               if (regionshot && $0 ~ /firmware \((>= 15\.0|<< 16\.0)\)/) exit 1
+              if (processguardian && $0 !~ /firmware \(<< 17\.4\)/) exit 1
             }
           ' Packages
           gzip -9fk Packages
