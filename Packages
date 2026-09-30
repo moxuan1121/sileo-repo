@@ -326,6 +326,22 @@ Description: Myrtle 1.4.1.1 and iOS 15 RootHide stable fixes, including direct u
 Author: moxuan
 Name: Myrtle Minimal Unified
 
+Package: com.moxuan.processguardian
+Version: 0.1.30~limits
+Architecture: iphoneos-arm64e
+Maintainer: moxuan1121
+Installed-Size: 396
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader
+Filename: debs/com.moxuan.processguardian_0.1.30~limits_iphoneos-arm64e.deb
+Size: 67698
+MD5sum: aac8d89a104696fa62d387dd3ceb4868
+SHA1: 380ac7c29ba918ae2a254f077f3cffec6990b3e5
+SHA256: b78f7bb9449510ff8b62bfa6cf89fe08ead30bcf34da462e7b31e7b081636d31
+Section: Tweaks
+Description: iOS process priority, memory limits and adaptive CPU monitoring
+Author: moxuan1121
+Name: ProcessGuardian
+
 Package: com.moxuan.regionshot
 Version: 0.6.34-roothide
 Architecture: iphoneos-arm64e
