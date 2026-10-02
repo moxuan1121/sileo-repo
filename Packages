@@ -326,6 +326,23 @@ Description: Myrtle 1.4.1.1 and iOS 15 RootHide stable fixes, including direct u
 Author: moxuan
 Name: Myrtle Minimal Unified
 
+Package: com.moxuan.parallelx
+Version: 0.1.0~alpha206
+Architecture: iphoneos-arm64e
+Maintainer: moxuan
+Installed-Size: 1072
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.m4fn3.myrtle, com.moxuan.myrtleswitcherfix, com.moxuan.moxuansplit
+Filename: debs/com.moxuan.parallelx_0.1.0~alpha206_iphoneos-arm64e.deb
+Size: 270242
+MD5sum: b321802045b97d0ec3e0ab2b33f12904
+SHA1: b7fc100295c72695892d006af7798e599c09a7c1
+SHA256: 54a897274bce582c372fae1a1871b903c87755fb2a6e157ad41d89d7a31b7343
+Section: Tweaks
+Description: RootHide floating app window with a Swift side panel.
+Author: moxuan
+Name: ParallelX
+
 Package: com.moxuan.processguardian
 Version: 0.1.30~limits
 Architecture: iphoneos-arm64e
