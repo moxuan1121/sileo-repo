@@ -918,6 +918,42 @@ Name: RegionShot
 Icon: https://moxuan1121.github.io/sileo-repo/depictions/regionshot/icon.png
 SileoDepiction: https://moxuan1121.github.io/sileo-repo/depictions/regionshot/depiction.json
 
+Package: com.moxuan1121.clipboard
+Version: 0.1.18
+Architecture: iphoneos-arm64e
+Maintainer: moxuan1121
+Installed-Size: 580
+Depends: firmware (>= 15.0), firmware (<< 16.0), mobilesubstrate, preferenceloader
+Filename: debs/com.moxuan1121.clipboard_0.1.18_iphoneos-arm64e.deb
+Size: 65744
+MD5sum: bcb9eba839e381bbbfd187e199743dda
+SHA1: 0cb4055d159f06f077f3a41a3a542902a87d4047
+SHA256: ff2bf63109695548410c4f4006fb56382277df95fac0513d4dee229a1e98fa79
+Section: Tweaks
+Description: iOS 15 剪贴板历史，保存文字和图片，支持自动粘贴。
+Author: moxuan1121
+Name: clipboard
+
+Package: com.moxuan1121.jpcallerid
+Version: 0.7.0
+Architecture: iphoneos-arm64e
+Maintainer: moxuan1121
+Installed-Size: 216
+Depends: firmware (>= 15.0), firmware (<< 16.0), mobilesubstrate, preferenceloader
+Conflicts: com.moxuan1121.nocallkitjump
+Replaces: com.moxuan1121.nocallkitjump
+Filename: debs/com.moxuan1121.jpcallerid_0.7.0_iphoneos-arm64e.deb
+Size: 33160
+MD5sum: e3d8ec8eca13d28294c6c6b5476bbb45
+SHA1: 1a9f0959ad5dd9e66154cb33e45bda8d81677ca5
+SHA256: cb8bed5f384227281965b34573a5e884d4cf393118f5b2eded15c83c54ea54d0
+Section: Tweaks
+Description: 日本号码来电显示店名：陌生号码来电时，在来电界面和通话记录的号码下方显示查到的事业者名或骚扰提示（telnavi / Google 地图 / ivry / LUFT TEL / jpnumber）；通话记录「陌生号码」分栏；可按国家区号拦截海外来电、拦截未显示号码；接听网络电话后不跳转 App（已合并 NoCallKitJump）。
+Author: moxuan1121
+Name: JPCallerID
+Icon: https://moxuan1121.github.io/sileo-repo/depictions/jpcallerid/icon.png
+SileoDepiction: https://moxuan1121.github.io/sileo-repo/depictions/jpcallerid/depiction.json
+
 Package: com.moxuan1121.powerbutton
 Version: 1.1.10
 Architecture: iphoneos-arm64e
