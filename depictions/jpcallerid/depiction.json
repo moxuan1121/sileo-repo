@@ -21,7 +21,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "0.7.0"
+          "text": "0.7.1"
         },
         {
           "class": "DepictionTableTextView",
@@ -35,7 +35,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "#### 0.7.0\n\n- 通话记录顶部新增「陌生号码」分栏。\n- 合并 NoCallKitJump：接听网络电话后不跳转 App。\n- 设置页改名为「骚扰拦截」，新增图标和 Google API Key 验证按钮。\n- telnavi 恢复为第一查询来源，新增 LUFT TEL。",
+          "markdown": "#### 0.7.1\n\n- 介绍和 Google Key 验证按钮改用通用示例。\n\n#### 0.7.0\n\n- 通话记录顶部新增「陌生号码」分栏。\n- 合并 NoCallKitJump：接听网络电话后不跳转 App。\n- 设置页改名为「骚扰拦截」，新增图标和 Google API Key 验证按钮。\n- telnavi 恢复为第一查询来源，新增 LUFT TEL。",
           "useSpacing": true
         }
       ]
@@ -59,7 +59,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "バージョン",
-          "text": "0.7.0"
+          "text": "0.7.1"
         },
         {
           "class": "DepictionTableTextView",
@@ -73,7 +73,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "#### 0.7.0\n\n- 通話履歴の上部に「陌生号码（知らない番号）」タブを追加。\n- NoCallKitJump を統合：ネット通話に応答してもアプリに切り替わりません。\n- 設定画面の名前を「骚扰拦截」に変更し、アイコンと Google API キーの確認ボタンを追加。\n- 電話帳ナビ（telnavi）を最初の検索元に戻し、LUFT TEL を追加。",
+          "markdown": "#### 0.7.1\n\n- 説明文と Google API キー確認ボタンの例を汎用的なものに変更。\n\n#### 0.7.0\n\n- 通話履歴の上部に「陌生号码（知らない番号）」タブを追加。\n- NoCallKitJump を統合：ネット通話に応答してもアプリに切り替わりません。\n- 設定画面の名前を「骚扰拦截」に変更し、アイコンと Google API キーの確認ボタンを追加。\n- 電話帳ナビ（telnavi）を最初の検索元に戻し、LUFT TEL を追加。",
           "useSpacing": true
         }
       ]
