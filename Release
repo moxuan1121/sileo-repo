@@ -1,7 +1,7 @@
 Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Codename: ios
 Components: main
-Date: Fri, 23 Oct 2026 03:52:29 +0000
+Date: Fri, 23 Oct 2026 03:57:06 +0000
 Description: 墨轩自用 Sileo 软件源
 Label:                墨轩自用源
 Origin:                墨轩自用源
@@ -9,16 +9,16 @@ Suite: stable
 MD5Sum:
  75c27b33a44b90ffdaa4fb098f5bfc73            41429 Packages
  79398d0083626755abb43f3450ba8fc0             8621 Packages.bz2
- ecd7ebada499dfd462c7d9df39de27c1             9210 Packages.gz
+ 968aca83a5ccde5002964e589d42df3a             9210 Packages.gz
 SHA1:
  53411e83a0759b8591bc8047bf0d4582c26c5eb9            41429 Packages
  e28ac07fad941e834943006e8dc5224b4787e1aa             8621 Packages.bz2
- 34eb876c74770e61114b68b439b4a6e8fc0802b5             9210 Packages.gz
+ 53a7a50fff2ebd6095be6a82cf01a778bd58b206             9210 Packages.gz
 SHA256:
  360d0afd8e14749a75e0feddea798606a7643b5c22876d87377f7d188316f4cb            41429 Packages
  ae739ed9212caca4a831b5d12522a9339f6e8acbed0fe88553ae723f1c3fc2f5             8621 Packages.bz2
- 2cf946547e2e456e893692ac940f4f476d4d3d01f081987c308003fa3d37cdae             9210 Packages.gz
+ 79967e325f4fa3f8567b0c28a5f5195386c2e47188eb1341ad398528d3e9e70d             9210 Packages.gz
 SHA512:
  7f5905ff564fe0ba52fff3c7f04f1f7bfdf44f287b703052d1e6dcec9dfafe49cd75d6c521e5bb268c9883f3f70377114e7425cb3b014acd3e1318642c01e0e0            41429 Packages
  d6503991ad10c1ec23fed590501c0382da41f56ed26267649fd1ab6e2e97071208edd40915e69d640934d9f653778e62a259df84aa2bf8b7ec7dbc04620492a5             8621 Packages.bz2
- 328a40f5ae5ebff1ab67649d2cf9c5d96ac4f34f901d8d7e3b31464dbd00f3f9eb0ff7283c6cb1c996c4a4fb6fa65db7b21b2a49d454964ae4cd641226d94104             9210 Packages.gz
+ 03e6069c3ebe1b6578cec6665d2f6c03ed2265c4b1ac1ce729f9a15cfeee64b6d553dd5e24937bbdc0abffb08df223c33e648f7aa9b3c73fd46304233eb714ff             9210 Packages.gz
