@@ -921,16 +921,16 @@ SileoDepiction: https://moxuan1121.github.io/sileo-repo/depictions/regionshot/de
 Package: com.moxuan1121.choicy
 Version: 1.5.4-1
 Architecture: iphoneos-arm64e
-Maintainer: moxuan1121
+Maintainer: opa334&moxuan1121
 Installed-Size: 1116
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 16.0)
 Conflicts: com.opa334.choicy
 Replaces: com.opa334.choicy
 Filename: debs/com.moxuan1121.choicy_1.5.4-1_iphoneos-arm64e.deb
-Size: 160438
-MD5sum: 54cdd4895d0b657118b7cee04ea9489f
-SHA1: 5c0951b44d3b3763fc694592dae4af3e77cd825f
-SHA256: b4bbcf0c0e81aaca7b1c60fa65926a2532bee1fc05582d02b988c40efb7ecda5
+Size: 160736
+MD5sum: c77522c1450f0c37e2aceabeaf093126
+SHA1: 7bff5d5d6425aaa246d4cade7b151ec1923253fd
+SHA256: 24fe1ebff9469d4476a69ecf53ea2d1530ef2983991f3e52cebc10ab3b0553cc
 Section: Tweaks
 Description: Advanced Tweak Configuration!
 Author: opa334 <opa334@protonmail.com>
