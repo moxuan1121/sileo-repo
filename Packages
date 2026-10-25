@@ -970,6 +970,22 @@ Description: iOS 15 剪贴板历史，保存文字和图片，支持自动粘贴
 Author: moxuan1121
 Name: clipboard
 
+Package: com.moxuan1121.clipboard
+Version: 0.1.20
+Architecture: iphoneos-arm64e
+Maintainer: moxuan1121
+Installed-Size: 580
+Depends: firmware (>= 15.0), firmware (<< 16.0), mobilesubstrate, preferenceloader
+Filename: debs/com.moxuan1121.clipboard_0.1.20_iphoneos-arm64e.deb
+Size: 66956
+MD5sum: f02a0d3df24342caa867310e84ff2469
+SHA1: efbd58cd0e144da5843fd6eff5f6fbabe759c3f1
+SHA256: 99eff003246d34bd13fac99853bb225a91297529bba6b16e7ffd10d40c3bc5a7
+Section: Tweaks
+Description: iOS 15 剪贴板历史，保存文字和图片，支持自动粘贴。
+Author: moxuan1121
+Name: clipboard
+
 Package: com.moxuan1121.jpcallerid
 Version: 0.7.8
 Architecture: iphoneos-arm64e
