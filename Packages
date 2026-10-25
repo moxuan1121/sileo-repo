@@ -918,6 +918,26 @@ Name: RegionShot
 Icon: https://moxuan1121.github.io/sileo-repo/depictions/regionshot/icon.png
 SileoDepiction: https://moxuan1121.github.io/sileo-repo/depictions/regionshot/depiction.json
 
+Package: com.moxuan1121.choicy
+Version: 1.5.4-1
+Architecture: iphoneos-arm64e
+Maintainer: moxuan1121
+Installed-Size: 1116
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 16.0)
+Conflicts: com.opa334.choicy
+Replaces: com.opa334.choicy
+Filename: debs/com.moxuan1121.choicy_1.5.4-1_iphoneos-arm64e.deb
+Size: 160438
+MD5sum: 54cdd4895d0b657118b7cee04ea9489f
+SHA1: 5c0951b44d3b3763fc694592dae4af3e77cd825f
+SHA256: b4bbcf0c0e81aaca7b1c60fa65926a2532bee1fc05582d02b988c40efb7ecda5
+Section: Tweaks
+Description: Advanced Tweak Configuration!
+Author: opa334 <opa334@protonmail.com>
+Name: Choicy
+Icon: https://moxuan1121.github.io/sileo-repo/depictions/choicy/icon.png
+SileoDepiction: https://moxuan1121.github.io/sileo-repo/depictions/choicy/depiction.json
+
 Package: com.moxuan1121.clipboard
 Version: 0.1.18
 Architecture: iphoneos-arm64e
