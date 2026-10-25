@@ -42,6 +42,7 @@ jobs:
               regionshot = $0 ~ /(^|\n)Package: com\.moxuan\.regionshot(\n|$)/
               processguardian = $0 ~ /(^|\n)Package: com\.moxuan\.processguardian(\n|$)/
               jpcallerid = $0 ~ /(^|\n)Package: com\.moxuan1121\.jpcallerid(\n|$)/
+              choicy = $0 ~ /(^|\n)Package: com\.moxuan1121\.choicy(\n|$)/
               if ($0 !~ /(^|\n)Depends:/) {
                 if (!regionshot && !processguardian) $0 = $0 "\nDepends: firmware (>= 15.0)" (fontchange ? "" : ", firmware (<< 16.0)")
               } else {
@@ -56,6 +57,10 @@ jobs:
               if (regionshot) {
                 $0 = $0 "\nIcon: https://moxuan1121.github.io/sileo-repo/depictions/regionshot/icon.png"
                 $0 = $0 "\nSileoDepiction: https://moxuan1121.github.io/sileo-repo/depictions/regionshot/depiction.json"
+              }
+              if (choicy) {
+                $0 = $0 "\nIcon: https://moxuan1121.github.io/sileo-repo/depictions/choicy/icon.png"
+                $0 = $0 "\nSileoDepiction: https://moxuan1121.github.io/sileo-repo/depictions/choicy/depiction.json"
               }
               if (jpcallerid) {
                 $0 = $0 "\nIcon: https://moxuan1121.github.io/sileo-repo/depictions/jpcallerid/icon.png"

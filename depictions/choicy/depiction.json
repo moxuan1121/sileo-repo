@@ -1,0 +1,56 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.3",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "详情",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### Choicy（墨轩修改版）\n\n基于 opa334 的 Choicy 1.5.4，面向 iOS 15、Dopamine RootHide（arm64e）。按进程控制插件注入：应用、扩展程序、守护进程都可以单独禁用插件、只放行专属插件或自定义允许/拒绝名单。\n\n与原版 Choicy（com.opa334.choicy）冲突，安装本包会自动替换原版，原有设置保留。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "使用方法"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "入口：**设置 → Choicy**。\n\n#### 单个进程\n\n进入「应用程序」或「守护进程」，点进某个进程：\n\n- **禁用插件注入**：该进程不加载插件。\n- **仅专属插件**：禁用注入的同时，放行过滤条件里点名这个进程的插件（专属插件），其他插件照样不注入。\n- **自定义插件配置**：选择「允许」或「拒绝」，再逐个勾选插件。\n- **覆盖全局插件配置**：该进程不受全局插件配置影响。\n\n应用改完配置会自动重启；SpringBoard 需要注销；部分守护进程需要用户空间重启。\n\n#### 列表排序与标记\n\n列表按 **有专属插件待启用 → 允许 → 仅专属 → 自定义 → 禁止** 排序。标有「有专属插件待启用」的进程已禁用注入，但装有专门针对它的插件，可以单独开启或用批量功能一次开启。\n\n#### 批量操作\n\n列表右上角的 **「全局禁用」** 菜单：\n\n- 应用列表按「主程序」「扩展程序」「隐藏应用程序」分组，可选「全局禁用」或「取消全局禁用」；原有自定义名单保留，取消时恢复。\n- 守护进程列表的「全局禁用」：有专属插件的守护进程改为「自定义 → 允许」并开启这些专属插件，其余禁用注入；之后新装的专属插件自动放行，可在该守护进程页面关闭。\n- 列表里有「有专属插件待启用」的进程时，菜单顶部多出 **「一键开启专属插件」**：保持禁用其他插件，只放行专属插件。\n\n#### 多选\n\n应用列表右上角点 **「选择」**，勾选多个应用，再点 **「所选应用」** 选择禁用或取消禁用；点「完成」退出。设置切到后台再回来时勾选保留。\n\n#### 新应用扩展默认禁用插件\n\n开启后，App Store / 巨魔安装的应用，其扩展程序在没有单独配置时默认不注入插件；手动配置过的扩展以手动配置为准。\n\n#### 行为说明\n\n- 禁用的**应用 / 守护进程**：由 Choicy 只放行专属插件，进程内仍会加载 Choicy 本身。\n- 禁用的**扩展程序**：所有插件全部拦截（扩展无法进入安全模式）。\n- 应用 3D Touch 菜单可加「无插件启动 / 带插件启动」选项，在「应用选项」里开关。\n- 所有更改在对应进程下次启动时生效。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "版本信息"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "版本",
+          "text": "1.5.4-1"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "系统",
+          "text": "iOS 15"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "越狱环境",
+          "text": "Dopamine RootHide"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "原作者",
+          "text": "opa334"
+        }
+      ]
+    }
+  ]
+}
