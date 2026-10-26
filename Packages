@@ -938,6 +938,26 @@ Name: Choicy
 Icon: https://moxuan1121.github.io/sileo-repo/depictions/choicy/icon.png
 SileoDepiction: https://moxuan1121.github.io/sileo-repo/depictions/choicy/depiction.json
 
+Package: com.moxuan1121.choicy
+Version: 1.5.4-2
+Architecture: iphoneos-arm64e
+Maintainer: opa334&moxuan1121
+Installed-Size: 1116
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 16.0)
+Conflicts: com.opa334.choicy
+Replaces: com.opa334.choicy
+Filename: debs/com.moxuan1121.choicy_1.5.4-2_iphoneos-arm64e.deb
+Size: 160494
+MD5sum: 7752c8de8f3d0b9e0c23c9f216d9ecf4
+SHA1: 4b957ca1e0d83e053d95cee30efaeeb13ca7e5d4
+SHA256: 99662fd927202bf726b14599aaebf637c34ca45ca8591eafc82e7a48463da1cf
+Section: Tweaks
+Description: Advanced Tweak Configuration!
+Author: opa334 <opa334@protonmail.com>
+Name: Choicy
+Icon: https://moxuan1121.github.io/sileo-repo/depictions/choicy/icon.png
+SileoDepiction: https://moxuan1121.github.io/sileo-repo/depictions/choicy/depiction.json
+
 Package: com.moxuan1121.clipboard
 Version: 0.1.18
 Architecture: iphoneos-arm64e
