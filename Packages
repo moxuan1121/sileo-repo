@@ -90,6 +90,24 @@ Author: Fouad Raheb
 Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
 Name: AppData
 
+Package: com.moxuan.appdata
+Version: 2.0.25
+Architecture: iphoneos-arm64e
+Maintainer: moxuan
+Depends: firmware (>= 15.0), firmware (<< 16.0), roothide, mobilesubstrate, preferenceloader
+Conflicts: com.iosdump.appdata, com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata, com.kernelrw.adytum
+Replaces: com.iosdump.appdata
+Filename: debs/com.moxuan.appdata_2.0.25_iphoneos-arm64e.deb
+Size: 182676
+MD5sum: ad770c149df70f558c4d006d817de89e
+SHA1: 4f242c577d8dca45c0761bc7050dae4ad96e3895
+SHA256: 38ed1a6d879d0522fd2e00db6a69581677448a738f15ea4c49ab24ea79cd41c1
+Section: Tweaks
+Description: 长按图标管理应用数据，并可按应用设置后台快速冻结与防杀
+Author: Fouad Raheb
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Name: AppData
+
 Package: com.moxuan.cpuoverloadkiller
 Version: 1.0.12
 Architecture: iphoneos-arm64e
@@ -157,6 +175,23 @@ Section: Tweaks
 Description: 110% icons with stable integrated icon shadows, smooth transitions, hidden labels and page dots, plus transparent Dock and folder backgrounds.
 Author: moxuan1121
 Name: Icon 110%
+
+Package: com.moxuan.insulationauto
+Version: 1.3.7
+Architecture: iphoneos-arm64e
+Maintainer: moxuan1121
+Installed-Size: 396
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, firmware (<< 16.0)
+Conflicts: com.be-huge.insulation
+Filename: debs/com.moxuan.insulationauto_1.3.7_iphoneos-arm64e.deb
+Size: 39888
+MD5sum: 7168c1c6780600b777c714d6e9b8c3d8
+SHA1: a408c3ecf55942a4c9a41c0af576d33f0862d475
+SHA256: c565bfef50c22c36c2bf2b6730339f113d708366c0c57ce0ac6d83fd9989c5ab
+Section: Tweaks
+Description: 独立温控插件：前台应用切到模拟低电频率；电池温度达阈值切到防止温控降频；其余恢复原生温控。也可手动固定模式。
+Author: moxuan1121
+Name: 智能温控
 
 Package: com.moxuan.kayoko
 Version: 4.7.34
@@ -958,6 +993,26 @@ Name: Choicy
 Icon: https://moxuan1121.github.io/sileo-repo/depictions/choicy/icon.png
 SileoDepiction: https://moxuan1121.github.io/sileo-repo/depictions/choicy/depiction.json
 
+Package: com.moxuan1121.choicy
+Version: 1.5.4-4
+Architecture: iphoneos-arm64e
+Maintainer: opa334&moxuan1121
+Installed-Size: 1120
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 16.0)
+Conflicts: com.opa334.choicy
+Replaces: com.opa334.choicy
+Filename: debs/com.moxuan1121.choicy_1.5.4-4_iphoneos-arm64e.deb
+Size: 160756
+MD5sum: 303d72b0a544407fc70d7afeeedc69c9
+SHA1: 09a0b5f7926171538b061888622332cde4dc1a79
+SHA256: 69313098cb1bc93d45a237736d9a229cd15827172192adca8efff446e7f4bb65
+Section: Tweaks
+Description: Advanced Tweak Configuration!
+Author: opa334 <opa334@protonmail.com>
+Name: Choicy
+Icon: https://moxuan1121.github.io/sileo-repo/depictions/choicy/icon.png
+SileoDepiction: https://moxuan1121.github.io/sileo-repo/depictions/choicy/depiction.json
+
 Package: com.moxuan1121.clipboard
 Version: 0.1.18
 Architecture: iphoneos-arm64e
@@ -1001,6 +1056,22 @@ Size: 66956
 MD5sum: f02a0d3df24342caa867310e84ff2469
 SHA1: efbd58cd0e144da5843fd6eff5f6fbabe759c3f1
 SHA256: 99eff003246d34bd13fac99853bb225a91297529bba6b16e7ffd10d40c3bc5a7
+Section: Tweaks
+Description: iOS 15 剪贴板历史，保存文字和图片，支持自动粘贴。
+Author: moxuan1121
+Name: clipboard
+
+Package: com.moxuan1121.clipboard
+Version: 0.1.21
+Architecture: iphoneos-arm64e
+Maintainer: moxuan1121
+Installed-Size: 580
+Depends: firmware (>= 15.0), firmware (<< 16.0), mobilesubstrate, preferenceloader
+Filename: debs/com.moxuan1121.clipboard_0.1.21_iphoneos-arm64e.deb
+Size: 68916
+MD5sum: d1543260148ecf344b54277192ab488d
+SHA1: f0fc80b5c8521f659a9813f5bbb06325c1a96233
+SHA256: 4db5dca67585ae5b111dcc3319ea9aad1e54684febcacc6d618086fd0d32d2ae
 Section: Tweaks
 Description: iOS 15 剪贴板历史，保存文字和图片，支持自动粘贴。
 Author: moxuan1121
