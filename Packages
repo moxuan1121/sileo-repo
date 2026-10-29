@@ -108,6 +108,23 @@ Author: Fouad Raheb
 Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
 Name: AppData
 
+Package: com.moxuan.appdata
+Version: 2.0.30
+Architecture: iphoneos-arm64e
+Maintainer: moxuan
+Depends: firmware (>= 15.0), firmware (<< 16.0), roothide, mobilesubstrate
+Conflicts: com.iosdump.appdata, com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Replaces: com.iosdump.appdata
+Filename: debs/com.moxuan.appdata_2.0.30_iphoneos-arm64e.deb
+Size: 124920
+MD5sum: 226ea757c65fc95a4759910d57847f11
+SHA1: 8738ce075d7878c27eef80a30fee33a063e31052
+SHA256: da5f5ab82e64d0fde43e5eb3fa60ac0818169aae8106703fa10b0c7ef3212b08
+Section: Tweaks
+Description: 长按图标管理应用数据
+Author: Fouad Raheb
+Name: AppData
+
 Package: com.moxuan.cpuoverloadkiller
 Version: 1.0.12
 Architecture: iphoneos-arm64e
