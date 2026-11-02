@@ -18,6 +18,26 @@ Name: CocoaTop
 Sileodepiction: https://apt.002599.xyz/web/cn.zqbb.ccatop
 Depends: firmware (>= 15.0), firmware (<< 16.0)
 
+Package: cn.moxuan.ccatop
+Version: 2.3.2
+Architecture: iphoneos-arm64e
+Maintainer: SXX, Domo
+Installed-Size: 864
+Conflicts: cn.zqbb.ccatop, ru.domo.cocoatop, ru.domo.cocoatop64, cn.zqbb.cocoatop64.inject.roothide, zp.cocoatop64.unject, zp.cocoatop64.unject.xina, zp.cocoatop64.inject
+Replaces: cn.zqbb.ccatop, ru.domo.cocoatop, ru.domo.cocoatop64, cn.zqbb.cocoatop64.inject.roothide, zp.cocoatop64.unject, zp.cocoatop64.unject.xina, zp.cocoatop64.inject
+Filename: debs/cn.moxuan.ccatop_2.3.2_iphoneos-arm64e.deb
+Size: 188918
+MD5sum: 97d051d71a1fdc0c40ebc31ca5164c57
+SHA1: d4ea8313ed1213f2b2f9de24ab93b471444b061f
+SHA256: 4867fd2492152eba0b7f7753892544c0ef47958cebee38f281af2215059b80cf
+Section: Utilities
+Description: Process Viewer for iOS GUI, updated for iOS 13 by SXX.
+Author: Domo, SXX
+Icon: https://apt.002599.xyz/web/icon/cn.zqbb.ccatop.png
+Name: CocoaTop
+Sileodepiction: https://apt.002599.xyz/web/cn.zqbb.ccatop
+Depends: firmware (>= 15.0), firmware (<< 16.0)
+
 Package: com.mox1121.shortcutpanel
 Version: 1.0
 Architecture: iphoneos-arm64e
@@ -125,6 +145,23 @@ Description: 长按图标管理应用数据
 Author: Fouad Raheb
 Name: AppData
 
+Package: com.moxuan.appdata
+Version: 2.0.33
+Architecture: iphoneos-arm64e
+Maintainer: moxuan
+Depends: firmware (>= 15.0), firmware (<< 16.0), roothide, mobilesubstrate
+Conflicts: com.iosdump.appdata, com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Replaces: com.iosdump.appdata
+Filename: debs/com.moxuan.appdata_2.0.33_iphoneos-arm64e.deb
+Size: 125220
+MD5sum: e13ac0b349754b1151fde2b423272d75
+SHA1: fe1d47f001504b8e2a54c204c1ec4deb0b3b42eb
+SHA256: d0cf4d32e53ada9bdbe330f09040567b26d56fa406ffcf71011abf570df37df6
+Section: Tweaks
+Description: 长按图标管理应用数据
+Author: Fouad Raheb
+Name: AppData
+
 Package: com.moxuan.cpuoverloadkiller
 Version: 1.0.12
 Architecture: iphoneos-arm64e
@@ -205,6 +242,23 @@ Size: 39888
 MD5sum: 7168c1c6780600b777c714d6e9b8c3d8
 SHA1: a408c3ecf55942a4c9a41c0af576d33f0862d475
 SHA256: c565bfef50c22c36c2bf2b6730339f113d708366c0c57ce0ac6d83fd9989c5ab
+Section: Tweaks
+Description: 独立温控插件：前台应用切到模拟低电频率；电池温度达阈值切到防止温控降频；其余恢复原生温控。也可手动固定模式。
+Author: moxuan1121
+Name: 智能温控
+
+Package: com.moxuan.insulationauto
+Version: 1.4.8
+Architecture: iphoneos-arm64e
+Maintainer: moxuan1121
+Installed-Size: 464
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, firmware (<< 16.0)
+Conflicts: com.be-huge.insulation
+Filename: debs/com.moxuan.insulationauto_1.4.8_iphoneos-arm64e.deb
+Size: 49230
+MD5sum: 6cafb728bf84ea0e5a5543b77a7816fe
+SHA1: 98187fcc5a6f26819d112c6e96f6cc5ddeb0f5d0
+SHA256: 5c031e69d2941bb6a611e2e45c83a6beea48e905aec862f03eab5b5e7d8c543b
 Section: Tweaks
 Description: 独立温控插件：前台应用切到模拟低电频率；电池温度达阈值切到防止温控降频；其余恢复原生温控。也可手动固定模式。
 Author: moxuan1121
@@ -324,6 +378,22 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/kayoko.png
 Name: Kayoko键盘侠
 
+Package: com.moxuan.keyboardaccio15
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: moxuan1121
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 16.0)
+Filename: debs/com.moxuan.keyboardaccio15_1.0.0_iphoneos-arm64e.deb
+Size: 3620
+MD5sum: 981735aa7ecd314ecf08279bea246382
+SHA1: 2bcda47fd182d12ab5e51dea83475b46ddf6db1c
+SHA256: 96b7a45a3d5b70f1fa40883e136b4142b21ef8b6f23bf31351128980134c36e5
+Section: Tweaks
+Description: On iOS 15, a globe-key tap switches only between the first two enabled keyboards. Long press remains available for all keyboards.
+Author: Hiraku, moxuan1121
+Name: Keyboard Accio 15 Minimal
+
 Package: com.moxuan.keyboardx
 Version: 0.8.12-fixed
 Architecture: iphoneos-arm64e
@@ -337,6 +407,24 @@ Size: 10138
 MD5sum: b140b36228b403c7ef46cca07b276c2f
 SHA1: a7d3a65f604d09991e6b07d8e9ce95f1683422f0
 SHA256: 142fa095768b5ce746729a5a773cd468c9947d31f571c20fcbcab8ec6a601926
+Section: Tweaks
+Description: Fixed RootHide build using the exact user-supplied KBET profile; no settings bundle or runtime preference access.
+Author: you
+Name: Keyboard Edit Toolbar (焊死配置版)
+
+Package: com.moxuan.keyboardx
+Version: 0.8.14-fixed
+Architecture: iphoneos-arm64e
+Maintainer: you
+Installed-Size: 92
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 16.0)
+Conflicts: cn.example.kbedittoolbar (<= 0.8.7-fixed)
+Replaces: cn.example.kbedittoolbar (<= 0.8.7-fixed)
+Filename: debs/com.moxuan.keyboardx_0.8.14-fixed_iphoneos-arm64e.deb
+Size: 8636
+MD5sum: 3b185a285b2c875348e7db820093f0f8
+SHA1: 4b809c65615d8651fa234b08f9aacc2ba0b45e41
+SHA256: bf461e04bd67a441da4ab0d6db4260e06f655e1d1cb7c4db3b543c5f9e949b06
 Section: Tweaks
 Description: Fixed RootHide build using the exact user-supplied KBET profile; no settings bundle or runtime preference access.
 Author: you
@@ -1048,6 +1136,26 @@ Name: Choicy
 Icon: https://moxuan1121.github.io/sileo-repo/depictions/choicy/icon.png
 SileoDepiction: https://moxuan1121.github.io/sileo-repo/depictions/choicy/depiction.json
 
+Package: com.moxuan1121.choicy
+Version: 1.5.4-7
+Architecture: iphoneos-arm64e
+Maintainer: opa334&moxuan1121
+Installed-Size: 1120
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 16.0)
+Conflicts: com.opa334.choicy
+Replaces: com.opa334.choicy
+Filename: debs/com.moxuan1121.choicy_1.5.4-7_iphoneos-arm64e.deb
+Size: 161606
+MD5sum: 7685ead04e70fa9c3ff6a3b584a7fa89
+SHA1: 8bf1d02b991e01320c6a2796bada84d30daad362
+SHA256: 23eb6c0e234770f1bcaf0e7087f5f2b5d0a35b57306e7ae0a98275df1b699de1
+Section: Tweaks
+Description: Advanced Tweak Configuration!
+Author: opa334 <opa334@protonmail.com>
+Name: Choicy
+Icon: https://moxuan1121.github.io/sileo-repo/depictions/choicy/icon.png
+SileoDepiction: https://moxuan1121.github.io/sileo-repo/depictions/choicy/depiction.json
+
 Package: com.moxuan1121.clipboard
 Version: 0.1.18
 Architecture: iphoneos-arm64e
@@ -1165,6 +1273,22 @@ Section: Tweaks
 Description: Swipe right within the right half of the status bar for a system screenshot. Experimental.
 Author: moxuan1121
 Name: RightStatusShot
+
+Package: com.t4mag0.safarimodernizer
+Version: 1.0.1-1
+Architecture: iphoneos-arm64e
+Maintainer: T4MAG0
+Installed-Size: 800
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 16.0)
+Filename: debs/com.t4mag0.safarimodernizer_1.0.1-1_iphoneos-arm64e.deb
+Size: 192326
+MD5sum: 1ba455ca66ebf1c85e91de461ad1039e
+SHA1: 8dec50c8cbbb77ae83fdc6106e1173cf310317a3
+SHA256: a314e3da77eadb14e6a0164d9e9ac51670ce86887bf5dc4ae58c320424b0b3b8
+Section: Tweaks
+Description: Makes newer websites work and look modern in Safari on iOS 15. Adds modern JavaScript and web features, rewrites modern CSS, works around Safari 15 security-policy bugs, runs sites that need import maps, and identifies as Safari 18.6 so sites send their modern pages. Hold two fingers on a page for 2 seconds (or add #smdebug to the address) to open the log and per-site settings.
+Author: T4MAG0
+Name: SafariModernizer
 
 Package: com.moxuan.repo.notice
 Version: 1.0
