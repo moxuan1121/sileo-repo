@@ -54,6 +54,23 @@ Description: Disables swipe to open cam gesture on the lock screen
 Author: dvntm
 Name: LSNoSwipe
 
+Package: com.guacforlife.reynarddefault
+Version: 1.5.0-5
+Architecture: iphoneos-arm64e
+Maintainer: guacforlife
+Installed-Size: 364
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 16.0)
+Filename: debs/com.guacforlife.reynarddefault_1.5.0-5_iphoneos-arm64e.deb
+Size: 25892
+MD5sum: 2d57c7340853a8ceed286b92c8e49f78
+SHA1: a72982e289fccd7ff2391523d016e4ca6400a86f
+SHA256: 7b902299cb2771fa1417599fb6ffbd13cc4011429edda734274e9decb2feac75
+Section: Tweaks
+Homepage: https://github.com/guacforlife/ReynardDefault
+Description: Redirects Safari URL opens to Reynard browser. Toggle in Settings.
+Author: guacforlife
+Name: ReynardDefault
+
 Package: com.mox1121.shortcutpanel
 Version: 1.0
 Architecture: iphoneos-arm64e
