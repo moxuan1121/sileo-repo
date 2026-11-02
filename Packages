@@ -38,6 +38,22 @@ Name: CocoaTop
 Sileodepiction: https://apt.002599.xyz/web/cn.zqbb.ccatop
 Depends: firmware (>= 15.0), firmware (<< 16.0)
 
+Package: com.dvntm.lsnoswipe
+Version: 0.0.1-1
+Architecture: iphoneos-arm64e
+Maintainer: dvntm
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0), firmware (>= 15.0), firmware (<< 16.0)
+Filename: debs/com.dvntm.lsnoswipe_0.0.1-1_iphoneos-arm64e.deb
+Size: 3890
+MD5sum: dbe6b1e10840bf2b9414e6d1bc52e7b2
+SHA1: cd836b5451d380446aeded8888f3abea58751d4b
+SHA256: ddeb657a63a4ea558b1c0497b84cf3f5c29ac24122818027d3befca8e87191da
+Section: Tweaks
+Description: Disables swipe to open cam gesture on the lock screen
+Author: dvntm
+Name: LSNoSwipe
+
 Package: com.mox1121.shortcutpanel
 Version: 1.0
 Architecture: iphoneos-arm64e
