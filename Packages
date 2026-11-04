@@ -1291,6 +1291,23 @@ Description: RootHide-only side-button actions and optional low power mode while
 Author: moxuan1121
 Name: PowerButton
 
+Package: com.moxuan1121.powerbuttonflashlight
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: moxuan1121
+Installed-Size: 72
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 16.0)
+Conflicts: com.moxuan1121.powerbutton, com.moxuan1121.powerbuttonhooks, com.lclrc.squidgesture
+Filename: debs/com.moxuan1121.powerbuttonflashlight_1.0.0_iphoneos-arm64e.deb
+Size: 3038
+MD5sum: f66eef793b7344585980de6c58b7821f
+SHA1: 6d5214a76ee098686c8a20b8858ebe47e8d6cf36
+SHA256: e6ed59180dfdb94cdeeac768f54f6949894eca338ce3527a81a4d4af46c21a36
+Section: Tweaks
+Description: Triple-press the side button to toggle the flashlight. No settings.
+Author: moxuan1121
+Name: PowerButton Flashlight
+
 Package: com.moxuan1121.rightstatusshot
 Version: 0.1.2-roothide
 Architecture: iphoneos-arm64e
