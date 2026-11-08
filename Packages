@@ -70,17 +70,17 @@ Author: mox1121
 Name: ShortcutPanel
 
 Package: com.moxuan.appdata
-Version: 2.0.33
+Version: 2.0.41
 Architecture: iphoneos-arm64e
 Maintainer: moxuan
 Depends: firmware (>= 15.0), firmware (<< 16.0), roothide, mobilesubstrate
 Conflicts: com.iosdump.appdata, com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
 Replaces: com.iosdump.appdata
-Filename: debs/com.moxuan.appdata_2.0.33_iphoneos-arm64e.deb
-Size: 125220
-MD5sum: e13ac0b349754b1151fde2b423272d75
-SHA1: fe1d47f001504b8e2a54c204c1ec4deb0b3b42eb
-SHA256: d0cf4d32e53ada9bdbe330f09040567b26d56fa406ffcf71011abf570df37df6
+Filename: debs/com.moxuan.appdata_2.0.41_iphoneos-arm64e.deb
+Size: 130926
+MD5sum: 1b7b24b686fab6b41805b55ac839dcd1
+SHA1: 06e0fde74f465de2377de3b080002200ecf62168
+SHA256: 0fc2ac116152eed8158da8b3a61bb1251edbfe8f6c4c8598e6141c91a2cce617
 Section: Tweaks
 Description: 长按图标管理应用数据
 Author: Fouad Raheb
@@ -119,18 +119,18 @@ Author: moxuan1121
 Name: FontChange
 
 Package: com.moxuan.icon110
-Version: 1.4.23~beta7
+Version: 1.4.23~beta8
 Architecture: iphoneos-arm64e
 Maintainer: moxuan1121
 Installed-Size: 212
 Depends: firmware (>= 15.0), firmware (<< 16.0)
 Conflicts: com.wkk.iconshadow
 Replaces: com.wkk.iconshadow
-Filename: debs/com.moxuan.icon110_1.4.23-beta7_unified-lifecycle_roothide.deb
-Size: 22442
-MD5sum: 6d376de584b63afcf1bc6d44eaf5c878
-SHA1: 716f433f5d706eb0413dcc7962c0ca013adeea9e
-SHA256: 750edb55fe709c67b7f72a6859256a3e7030190f1bd91643fed7a58cd88504a0
+Filename: debs/com.moxuan.icon110_1.4.23~beta8_iphoneos-arm64e.deb
+Size: 22310
+MD5sum: 12907c4e9c81c83f4bc9e925fc3cae16
+SHA1: 5d495cbf446ddb8d4235e48055b8984e1658e150
+SHA256: ba950861215db51ca8ee547e621552f4a1fcc996bfa19d0259d5d57293ceb354
 Section: Tweaks
 Description: 110% icons with stable integrated icon shadows, smooth transitions, hidden labels and page dots, plus transparent Dock and folder backgrounds.
 Author: moxuan1121
