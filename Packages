@@ -420,16 +420,16 @@ Author: moxuan1121
 Name: RightStatusShot
 
 Package: com.t4mag0.safarimodernizer
-Version: 1.0.1-1
+Version: 1.0.1-5
 Architecture: iphoneos-arm64e
 Maintainer: T4MAG0
 Installed-Size: 800
 Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 16.0)
-Filename: debs/com.t4mag0.safarimodernizer_1.0.1-1_iphoneos-arm64e.deb
-Size: 192326
-MD5sum: 1ba455ca66ebf1c85e91de461ad1039e
-SHA1: 8dec50c8cbbb77ae83fdc6106e1173cf310317a3
-SHA256: a314e3da77eadb14e6a0164d9e9ac51670ce86887bf5dc4ae58c320424b0b3b8
+Filename: debs/com.t4mag0.safarimodernizer_1.0.1-5_iphoneos-arm64e.deb
+Size: 192466
+MD5sum: ceb749772d3d0a3c6334102bcd568def
+SHA1: 87e027d24458ec9ab21094f3bf1bf5f2707966fb
+SHA256: 858dc482148f27b1ac061b19e3a6f1976db62341ee4462a5121472d0e65ebe3e
 Section: Tweaks
 Description: Makes newer websites work and look modern in Safari on iOS 15. Adds modern JavaScript and web features, rewrites modern CSS, works around Safari 15 security-policy bugs, runs sites that need import maps, and identifies as Safari 18.6 so sites send their modern pages. Hold two fingers on a page for 2 seconds (or add #smdebug to the address) to open the log and per-site settings.
 Author: T4MAG0
