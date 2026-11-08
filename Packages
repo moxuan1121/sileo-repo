@@ -103,16 +103,16 @@ Author: moxuan1121
 Name: CPUOverloadKiller
 
 Package: com.moxuan.fontchange
-Version: 1.2.1
+Version: 1.2.2
 Architecture: iphoneos-arm64e
 Maintainer: moxuan1121
 Installed-Size: 2036
 Depends: firmware (>= 15.0), unzip
-Filename: debs/com.moxuan.fontchange_1.2.1_iphoneos-arm64e.deb
-Size: 1651990
-MD5sum: ebcaeafeeddaa3d706e3056e423a933f
-SHA1: fcdcd7aef14e9b0a54f5806ab9d22d416921c6c7
-SHA256: 1161a8ea1f63e980bfaaa084e68359f86d30a52e13bd5c6f161faf57e6d9fa14
+Filename: debs/com.moxuan.fontchange_1.2.2_iphoneos-arm64e.deb
+Size: 1653392
+MD5sum: 8a85674bf928fa0b37c58d10a0dccd0f
+SHA1: a09c91259b4cb598cd0d78cf39e883fd95ccd936
+SHA256: 15e546272c581cf256a46e1e63f68fe75bf3163becc9c6b2ad23b469b2b6397f
 Section: Utilities
 Description: Manages custom system and lock-screen fonts on supported iOS 15+ jailbreak environments, refreshes language caches, restores system fonts, and reboots userspace.
 Author: moxuan1121
