@@ -208,7 +208,7 @@ Section: Tweaks
 Description: Kayoko 键盘侠版，长按文字打开键盘侠分词；mlgm 基于「乌龙工作室」版进行二次修改
 Author: mlgm
 Icon: https://mlgm66.github.io/icon/kayoko.png
-Name: Kayoko键盘侠
+Name: Kayoko键盘�
 
 Package: com.moxuan.keyboardaccio15
 Version: 1.0.0
@@ -295,6 +295,22 @@ Author: moxuan
 Name: RegionShot
 Icon: https://moxuan1121.github.io/sileo-repo/depictions/regionshot/icon.png
 SileoDepiction: https://moxuan1121.github.io/sileo-repo/depictions/regionshot/depiction.json
+
+Package: com.moxuan.scantosafari
+Version: 1.0.2
+Architecture: iphoneos-arm64e
+Maintainer: moxuan1121
+Installed-Size: 168
+Depends: firmware (>= 15.0), mobilesubstrate, firmware (<< 16.0)
+Filename: debs/com.moxuan.scantosafari_1.0.2_iphoneos-arm64e.deb
+Size: 4908
+MD5sum: 12ddeae7a8e4022f886a76c3bfb327d7
+SHA1: 68871ae8cc75bddb4f4c3b0ac2e6628f67f1ef1b
+SHA256: 3c4356125dc7e1ba8b31279ba56f88fbf501b9a9cefdda58194f788b74f0afc3
+Section: Tweaks
+Description: 系统“扫码器”扫到网址后直接在 Safari 打开，不再弹出 App 内的 Safari 小窗。
+Author: moxuan1121
+Name: 扫码直开Safari
 
 Package: com.moxuan1121.choicy
 Version: 1.5.4-7
