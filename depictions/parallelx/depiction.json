@@ -1,0 +1,65 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.3",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "详情",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### ParallelX\n\n面向 iOS 15、Dopamine RootHide 与 arm64e 的分屏悬浮窗口插件。从屏幕右边缘拉出半圆面板，即可把应用以分屏窗口或角落小窗打开，在使用当前应用的同时操作另一个应用。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "#### 主要功能\n\n- **分屏窗口**：可调位置、尺寸、圆角与阴影，支持拖动缩放，竖屏可固定居中。\n- **角落小窗**：把应用收成小窗停靠在角落，随时展开。\n- **半圆面板与手柄**：从右边缘唤出，可自定义应用、快捷操作与排序。\n- **手势区域**：窗口顶部、底部和圆角弧形触发带，厚度可调，随窗口大小同比例缩放。\n- **键盘**：横竖屏分别选择内置键盘或外置键盘；内置键盘可放大并显示遮罩，外置键盘可双击外部关闭分屏。\n- **外部打开**：通知横幅和 URL 跳转可直接在分屏中打开，支持黑名单。\n- **系统整合**：右边缘滑动返回、锁屏时清理窗口、截图录屏时隐藏手柄、分屏应用可调用相机。\n- **配置备份与恢复**。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "版本信息"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "版本",
+          "text": "0.1.0~alpha437"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "系统",
+          "text": "iOS 15"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "越狱环境",
+          "text": "Dopamine RootHide"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "开发者",
+          "text": "墨轩"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "冲突插件：Myrtle、MyrtleSwitcherFix、MoxuanSplit、SwipeBack，请先卸载。",
+          "useSpacing": true
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "#### 0.1.0~alpha437\n\n- 内置键盘遮罩改为原地淡入淡出，与外置键盘一致。\n- 新增“内置键盘显示遮罩”开关。\n- 角落手势区域改为贴合窗口圆角的弧形触发带，厚度可自定义。\n- 手势区域与底部横条随窗口大小同比例缩放，横竖屏大小一致。",
+          "useSpacing": true
+        }
+      ]
+    }
+  ]
+}
