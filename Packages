@@ -278,6 +278,8 @@ Section: Tweaks
 Description: Minimal iOS 15 RootHide floating app window with a Swift side panel.
 Author: moxuan
 Name: ParallelX
+Icon: https://moxuan1121.github.io/sileo-repo/depictions/parallelx/icon.png
+SileoDepiction: https://moxuan1121.github.io/sileo-repo/depictions/parallelx/depiction.json
 
 Package: com.moxuan.processguardian
 Version: 0.1.30~limits
