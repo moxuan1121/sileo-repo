@@ -298,16 +298,16 @@ Author: moxuan1121
 Name: ProcessGuardian
 
 Package: com.moxuan.regionshot
-Version: 0.7.67-roothide
+Version: 0.7.68-roothide
 Architecture: iphoneos-arm64e
 Maintainer: moxuan
 Installed-Size: 1232
 Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.moxuan.regionshot_0.7.67-roothide_iphoneos-arm64e.deb
-Size: 281676
-MD5sum: c8c4a68ff902fb9fe38a333e816ce1b7
-SHA1: 9465547cb657f931923fb440f1ffe797460901cc
-SHA256: 4c6d32d68160a018f20197eab5986c6669559634075ebbe574dd7a6aaefc8f4f
+Filename: debs/com.moxuan.regionshot_0.7.68-roothide_iphoneos-arm64e.deb
+Size: 282216
+MD5sum: 9ff686d1832c0db44ec494511bd53c9c
+SHA1: 4c9b684ebf3ce29c1d88d85a0ded75c1a6a1b18d
+SHA256: 1678580ac6819f359cbc27ecf38f60a18649f9391c5944e5e4014a830140ebc2
 Section: Tweaks
 Description: Lightweight floating region screenshots for iOS 15.6.
 Author: moxuan
