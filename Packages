@@ -263,17 +263,17 @@ Author: moxuan
 Name: Myrtle Minimal Unified
 
 Package: com.moxuan.parallelx
-Version: 0.1.0~alpha437
+Version: 0.1.0~alpha440
 Architecture: iphoneos-arm64e
 Maintainer: moxuan
-Installed-Size: 1344
+Installed-Size: 1360
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 16.0)
 Conflicts: com.m4fn3.myrtle, com.moxuan.myrtleswitcherfix, com.moxuan.moxuansplit, com.moxuan.swipeback
-Filename: debs/com.moxuan.parallelx_0.1.0~alpha437_iphoneos-arm64e.deb
-Size: 357494
-MD5sum: f0d092339998af7438a56e20684319d6
-SHA1: 283796ad47687c7ecf8168257d7dd3117cf5779e
-SHA256: d60fc0395666c22d594b3d105a1d8129d40ee31224e2865df7bc10f73d8e1750
+Filename: debs/com.moxuan.parallelx_0.1.0~alpha440_iphoneos-arm64e.deb
+Size: 357830
+MD5sum: 32962c2d89c719dbe3f41d7fc2763a19
+SHA1: 0c335f2e721a1bbb5c72471472c4397661ae1300
+SHA256: bc8a18cf048cc19e2951c0f0b485e54ac0b43823aaa289ef2e8e1d64cce2b017
 Section: Tweaks
 Description: Minimal iOS 15 RootHide floating app window with a Swift side panel.
 Author: moxuan
@@ -352,16 +352,16 @@ Icon: https://moxuan1121.github.io/sileo-repo/depictions/choicy/icon.png
 SileoDepiction: https://moxuan1121.github.io/sileo-repo/depictions/choicy/depiction.json
 
 Package: com.moxuan1121.clipboard
-Version: 0.1.21
+Version: 0.1.22
 Architecture: iphoneos-arm64e
 Maintainer: moxuan1121
 Installed-Size: 580
 Depends: firmware (>= 15.0), firmware (<< 16.0), mobilesubstrate, preferenceloader
-Filename: debs/com.moxuan1121.clipboard_0.1.21_iphoneos-arm64e.deb
-Size: 68916
-MD5sum: d1543260148ecf344b54277192ab488d
-SHA1: f0fc80b5c8521f659a9813f5bbb06325c1a96233
-SHA256: 4db5dca67585ae5b111dcc3319ea9aad1e54684febcacc6d618086fd0d32d2ae
+Filename: debs/com.moxuan1121.clipboard_0.1.22_iphoneos-arm64e.deb
+Size: 70248
+MD5sum: a934c552937a7900b3cc6b66dfeccdd6
+SHA1: 2c557d401b5c5e87150733943029b2cb0ad05fd4
+SHA256: 16e45cf242edf0590b31b4b02cacbaa79002315e51a3c5a24cd60f0b3ff5d8d8
 Section: Tweaks
 Description: iOS 15 剪贴板历史，保存文字和图片，支持自动粘贴。
 Author: moxuan1121
@@ -439,16 +439,16 @@ Author: moxuan1121
 Name: RightStatusShot
 
 Package: com.t4mag0.safarimodernizer
-Version: 1.0.1-5
+Version: 1.0.1-6
 Architecture: iphoneos-arm64e
 Maintainer: T4MAG0
 Installed-Size: 800
 Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 16.0)
-Filename: debs/com.t4mag0.safarimodernizer_1.0.1-5_iphoneos-arm64e.deb
-Size: 192466
-MD5sum: ceb749772d3d0a3c6334102bcd568def
-SHA1: 87e027d24458ec9ab21094f3bf1bf5f2707966fb
-SHA256: 858dc482148f27b1ac061b19e3a6f1976db62341ee4462a5121472d0e65ebe3e
+Filename: debs/com.t4mag0.safarimodernizer_1.0.1-6_iphoneos-arm64e.deb
+Size: 192922
+MD5sum: d9a15e29d0c34b5d06d39be22c2ddc05
+SHA1: 202ba1c110c4d22ca71ab8473274e84fd1883af7
+SHA256: cc2769edc3226bad6d587171d8fcaa57bf7f16681d87ece20fa92654e6e4e686
 Section: Tweaks
 Description: Makes newer websites work and look modern in Safari on iOS 15. Adds modern JavaScript and web features, rewrites modern CSS, works around Safari 15 security-policy bugs, runs sites that need import maps, and identifies as Safari 18.6 so sites send their modern pages. Hold two fingers on a page for 2 seconds (or add #smdebug to the address) to open the log and per-site settings.
 Author: T4MAG0
